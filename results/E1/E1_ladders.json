@@ -1,0 +1,1038 @@
+{
+  "tep": [
+    {
+      "label": "all 41 measurements",
+      "dropped_groups": [],
+      "n_sensors": 41,
+      "redundancy": 38,
+      "n_classes": 15,
+      "max_class_size": 3,
+      "indiscernible_mass": 0.4,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "IDV1"
+        ],
+        [
+          "IDV2"
+        ],
+        [
+          "IDV3",
+          "IDV9"
+        ],
+        [
+          "IDV4",
+          "IDV11",
+          "IDV14"
+        ],
+        [
+          "IDV5",
+          "IDV12",
+          "IDV15"
+        ],
+        [
+          "IDV6"
+        ],
+        [
+          "IDV7"
+        ],
+        [
+          "IDV8"
+        ],
+        [
+          "IDV10"
+        ],
+        [
+          "IDV13"
+        ],
+        [
+          "IDV16"
+        ],
+        [
+          "IDV17"
+        ],
+        [
+          "IDV18"
+        ],
+        [
+          "IDV19"
+        ],
+        [
+          "IDV20"
+        ]
+      ]
+    },
+    {
+      "label": "no product analyser",
+      "dropped_groups": [
+        "analyser_product"
+      ],
+      "n_sensors": 36,
+      "redundancy": 33,
+      "n_classes": 15,
+      "max_class_size": 3,
+      "indiscernible_mass": 0.4,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "IDV1"
+        ],
+        [
+          "IDV2"
+        ],
+        [
+          "IDV3",
+          "IDV9"
+        ],
+        [
+          "IDV4",
+          "IDV11",
+          "IDV14"
+        ],
+        [
+          "IDV5",
+          "IDV12",
+          "IDV15"
+        ],
+        [
+          "IDV6"
+        ],
+        [
+          "IDV7"
+        ],
+        [
+          "IDV8"
+        ],
+        [
+          "IDV10"
+        ],
+        [
+          "IDV13"
+        ],
+        [
+          "IDV16"
+        ],
+        [
+          "IDV17"
+        ],
+        [
+          "IDV18"
+        ],
+        [
+          "IDV19"
+        ],
+        [
+          "IDV20"
+        ]
+      ]
+    },
+    {
+      "label": "no product/purge analysers",
+      "dropped_groups": [
+        "analyser_product",
+        "analyser_purge"
+      ],
+      "n_sensors": 28,
+      "redundancy": 25,
+      "n_classes": 15,
+      "max_class_size": 3,
+      "indiscernible_mass": 0.4,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "IDV1"
+        ],
+        [
+          "IDV2"
+        ],
+        [
+          "IDV3",
+          "IDV9"
+        ],
+        [
+          "IDV4",
+          "IDV11",
+          "IDV14"
+        ],
+        [
+          "IDV5",
+          "IDV12",
+          "IDV15"
+        ],
+        [
+          "IDV6"
+        ],
+        [
+          "IDV7"
+        ],
+        [
+          "IDV8"
+        ],
+        [
+          "IDV10"
+        ],
+        [
+          "IDV13"
+        ],
+        [
+          "IDV16"
+        ],
+        [
+          "IDV17"
+        ],
+        [
+          "IDV18"
+        ],
+        [
+          "IDV19"
+        ],
+        [
+          "IDV20"
+        ]
+      ]
+    },
+    {
+      "label": "no composition analysers",
+      "dropped_groups": [
+        "analyser_product",
+        "analyser_purge",
+        "analyser_feed"
+      ],
+      "n_sensors": 22,
+      "redundancy": 19,
+      "n_classes": 15,
+      "max_class_size": 3,
+      "indiscernible_mass": 0.4,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "IDV1"
+        ],
+        [
+          "IDV2"
+        ],
+        [
+          "IDV3",
+          "IDV9"
+        ],
+        [
+          "IDV4",
+          "IDV11",
+          "IDV14"
+        ],
+        [
+          "IDV5",
+          "IDV12",
+          "IDV15"
+        ],
+        [
+          "IDV6"
+        ],
+        [
+          "IDV7"
+        ],
+        [
+          "IDV8"
+        ],
+        [
+          "IDV10"
+        ],
+        [
+          "IDV13"
+        ],
+        [
+          "IDV16"
+        ],
+        [
+          "IDV17"
+        ],
+        [
+          "IDV18"
+        ],
+        [
+          "IDV19"
+        ],
+        [
+          "IDV20"
+        ]
+      ]
+    },
+    {
+      "label": "no analysers, no duty meters",
+      "dropped_groups": [
+        "analyser_product",
+        "analyser_purge",
+        "analyser_feed",
+        "duties"
+      ],
+      "n_sensors": 20,
+      "redundancy": 17,
+      "n_classes": 14,
+      "max_class_size": 3,
+      "indiscernible_mass": 0.5,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "IDV1"
+        ],
+        [
+          "IDV2"
+        ],
+        [
+          "IDV3",
+          "IDV9"
+        ],
+        [
+          "IDV4",
+          "IDV11",
+          "IDV14"
+        ],
+        [
+          "IDV5",
+          "IDV12",
+          "IDV15"
+        ],
+        [
+          "IDV6"
+        ],
+        [
+          "IDV7"
+        ],
+        [
+          "IDV8"
+        ],
+        [
+          "IDV10",
+          "IDV16"
+        ],
+        [
+          "IDV13"
+        ],
+        [
+          "IDV17"
+        ],
+        [
+          "IDV18"
+        ],
+        [
+          "IDV19"
+        ],
+        [
+          "IDV20"
+        ]
+      ]
+    },
+    {
+      "label": "no analysers/duties/coolant temps",
+      "dropped_groups": [
+        "analyser_product",
+        "analyser_purge",
+        "analyser_feed",
+        "duties",
+        "coolant_temps"
+      ],
+      "n_sensors": 18,
+      "redundancy": 15,
+      "n_classes": 12,
+      "max_class_size": 4,
+      "indiscernible_mass": 0.6,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "IDV1"
+        ],
+        [
+          "IDV2"
+        ],
+        [
+          "IDV3",
+          "IDV9"
+        ],
+        [
+          "IDV4",
+          "IDV11",
+          "IDV14",
+          "IDV17"
+        ],
+        [
+          "IDV5",
+          "IDV12",
+          "IDV15",
+          "IDV18"
+        ],
+        [
+          "IDV6"
+        ],
+        [
+          "IDV7"
+        ],
+        [
+          "IDV8"
+        ],
+        [
+          "IDV10",
+          "IDV16"
+        ],
+        [
+          "IDV13"
+        ],
+        [
+          "IDV19"
+        ],
+        [
+          "IDV20"
+        ]
+      ]
+    },
+    {
+      "label": "flows, pressures and vessel temps only",
+      "dropped_groups": [
+        "analyser_product",
+        "analyser_purge",
+        "analyser_feed",
+        "duties",
+        "coolant_temps",
+        "levels"
+      ],
+      "n_sensors": 15,
+      "redundancy": 12,
+      "n_classes": 12,
+      "max_class_size": 4,
+      "indiscernible_mass": 0.6,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "IDV1"
+        ],
+        [
+          "IDV2"
+        ],
+        [
+          "IDV3",
+          "IDV9"
+        ],
+        [
+          "IDV4",
+          "IDV11",
+          "IDV14",
+          "IDV17"
+        ],
+        [
+          "IDV5",
+          "IDV12",
+          "IDV15",
+          "IDV18"
+        ],
+        [
+          "IDV6"
+        ],
+        [
+          "IDV7"
+        ],
+        [
+          "IDV8"
+        ],
+        [
+          "IDV10",
+          "IDV16"
+        ],
+        [
+          "IDV13"
+        ],
+        [
+          "IDV19"
+        ],
+        [
+          "IDV20"
+        ]
+      ]
+    },
+    {
+      "label": "feed flows, pressures, vessel temps",
+      "dropped_groups": [
+        "analyser_product",
+        "analyser_purge",
+        "analyser_feed",
+        "duties",
+        "coolant_temps",
+        "levels",
+        "internal_flows"
+      ],
+      "n_sensors": 10,
+      "redundancy": 7,
+      "n_classes": 12,
+      "max_class_size": 4,
+      "indiscernible_mass": 0.6,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "IDV1"
+        ],
+        [
+          "IDV2"
+        ],
+        [
+          "IDV3",
+          "IDV9"
+        ],
+        [
+          "IDV4",
+          "IDV11",
+          "IDV14",
+          "IDV17"
+        ],
+        [
+          "IDV5",
+          "IDV12",
+          "IDV15",
+          "IDV18"
+        ],
+        [
+          "IDV6"
+        ],
+        [
+          "IDV7"
+        ],
+        [
+          "IDV8"
+        ],
+        [
+          "IDV10",
+          "IDV16"
+        ],
+        [
+          "IDV13"
+        ],
+        [
+          "IDV19"
+        ],
+        [
+          "IDV20"
+        ]
+      ]
+    }
+  ],
+  "robot": [
+    {
+      "label": "full instrumentation",
+      "dropped_groups": [],
+      "n_sensors": 49,
+      "redundancy": 49,
+      "n_classes": 24,
+      "max_class_size": 2,
+      "indiscernible_mass": 0.08,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "friction1"
+        ],
+        [
+          "friction2"
+        ],
+        [
+          "friction3"
+        ],
+        [
+          "friction4"
+        ],
+        [
+          "friction5"
+        ],
+        [
+          "friction6"
+        ],
+        [
+          "addedmass1",
+          "extforce1"
+        ],
+        [
+          "addedmass2"
+        ],
+        [
+          "addedmass3"
+        ],
+        [
+          "addedmass4"
+        ],
+        [
+          "addedmass5"
+        ],
+        [
+          "addedmass6"
+        ],
+        [
+          "commutation1"
+        ],
+        [
+          "commutation2"
+        ],
+        [
+          "commutation3"
+        ],
+        [
+          "commutation4"
+        ],
+        [
+          "commutation5"
+        ],
+        [
+          "commutation6"
+        ],
+        [
+          "extforce2"
+        ],
+        [
+          "extforce3"
+        ],
+        [
+          "extforce4"
+        ],
+        [
+          "extforce5"
+        ],
+        [
+          "extforce6"
+        ],
+        [
+          "payload"
+        ]
+      ]
+    },
+    {
+      "label": "single joint torque sensor",
+      "dropped_groups": [
+        "torque_b"
+      ],
+      "n_sensors": 43,
+      "redundancy": 43,
+      "n_classes": 24,
+      "max_class_size": 2,
+      "indiscernible_mass": 0.08,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "friction1"
+        ],
+        [
+          "friction2"
+        ],
+        [
+          "friction3"
+        ],
+        [
+          "friction4"
+        ],
+        [
+          "friction5"
+        ],
+        [
+          "friction6"
+        ],
+        [
+          "addedmass1",
+          "extforce1"
+        ],
+        [
+          "addedmass2"
+        ],
+        [
+          "addedmass3"
+        ],
+        [
+          "addedmass4"
+        ],
+        [
+          "addedmass5"
+        ],
+        [
+          "addedmass6"
+        ],
+        [
+          "commutation1"
+        ],
+        [
+          "commutation2"
+        ],
+        [
+          "commutation3"
+        ],
+        [
+          "commutation4"
+        ],
+        [
+          "commutation5"
+        ],
+        [
+          "commutation6"
+        ],
+        [
+          "extforce2"
+        ],
+        [
+          "extforce3"
+        ],
+        [
+          "extforce4"
+        ],
+        [
+          "extforce5"
+        ],
+        [
+          "extforce6"
+        ],
+        [
+          "payload"
+        ]
+      ]
+    },
+    {
+      "label": "no joint torque sensing",
+      "dropped_groups": [
+        "torque_b",
+        "torque_a"
+      ],
+      "n_sensors": 37,
+      "redundancy": 37,
+      "n_classes": 12,
+      "max_class_size": 4,
+      "indiscernible_mass": 0.76,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "friction1",
+          "addedmass1",
+          "commutation1",
+          "extforce1"
+        ],
+        [
+          "friction2",
+          "commutation2",
+          "extforce2"
+        ],
+        [
+          "friction3",
+          "commutation3",
+          "extforce3"
+        ],
+        [
+          "friction4",
+          "commutation4",
+          "extforce4"
+        ],
+        [
+          "friction5",
+          "commutation5",
+          "extforce5"
+        ],
+        [
+          "friction6",
+          "commutation6",
+          "extforce6"
+        ],
+        [
+          "addedmass2"
+        ],
+        [
+          "addedmass3"
+        ],
+        [
+          "addedmass4"
+        ],
+        [
+          "addedmass5"
+        ],
+        [
+          "addedmass6"
+        ],
+        [
+          "payload"
+        ]
+      ]
+    },
+    {
+      "label": "no joint torque, no link encoders",
+      "dropped_groups": [
+        "torque_b",
+        "torque_a",
+        "link_encoders"
+      ],
+      "n_sensors": 25,
+      "redundancy": 25,
+      "n_classes": 12,
+      "max_class_size": 4,
+      "indiscernible_mass": 0.76,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "friction1",
+          "addedmass1",
+          "commutation1",
+          "extforce1"
+        ],
+        [
+          "friction2",
+          "commutation2",
+          "extforce2"
+        ],
+        [
+          "friction3",
+          "commutation3",
+          "extforce3"
+        ],
+        [
+          "friction4",
+          "commutation4",
+          "extforce4"
+        ],
+        [
+          "friction5",
+          "commutation5",
+          "extforce5"
+        ],
+        [
+          "friction6",
+          "commutation6",
+          "extforce6"
+        ],
+        [
+          "addedmass2"
+        ],
+        [
+          "addedmass3"
+        ],
+        [
+          "addedmass4"
+        ],
+        [
+          "addedmass5"
+        ],
+        [
+          "addedmass6"
+        ],
+        [
+          "payload"
+        ]
+      ]
+    },
+    {
+      "label": "motor side only, with voltage",
+      "dropped_groups": [
+        "torque_b",
+        "torque_a",
+        "link_encoders",
+        "bus_current"
+      ],
+      "n_sensors": 24,
+      "redundancy": 24,
+      "n_classes": 12,
+      "max_class_size": 4,
+      "indiscernible_mass": 0.76,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "friction1",
+          "addedmass1",
+          "commutation1",
+          "extforce1"
+        ],
+        [
+          "friction2",
+          "commutation2",
+          "extforce2"
+        ],
+        [
+          "friction3",
+          "commutation3",
+          "extforce3"
+        ],
+        [
+          "friction4",
+          "commutation4",
+          "extforce4"
+        ],
+        [
+          "friction5",
+          "commutation5",
+          "extforce5"
+        ],
+        [
+          "friction6",
+          "commutation6",
+          "extforce6"
+        ],
+        [
+          "addedmass2"
+        ],
+        [
+          "addedmass3"
+        ],
+        [
+          "addedmass4"
+        ],
+        [
+          "addedmass5"
+        ],
+        [
+          "addedmass6"
+        ],
+        [
+          "payload"
+        ]
+      ]
+    },
+    {
+      "label": "motor side, no voltage sensing",
+      "dropped_groups": [
+        "torque_b",
+        "torque_a",
+        "link_encoders",
+        "bus_current",
+        "motor_voltage"
+      ],
+      "n_sensors": 18,
+      "redundancy": 18,
+      "n_classes": 12,
+      "max_class_size": 4,
+      "indiscernible_mass": 0.76,
+      "n_undetectable": 0,
+      "undetectable": [],
+      "blocks": [
+        [
+          "friction1",
+          "addedmass1",
+          "commutation1",
+          "extforce1"
+        ],
+        [
+          "friction2",
+          "commutation2",
+          "extforce2"
+        ],
+        [
+          "friction3",
+          "commutation3",
+          "extforce3"
+        ],
+        [
+          "friction4",
+          "commutation4",
+          "extforce4"
+        ],
+        [
+          "friction5",
+          "commutation5",
+          "extforce5"
+        ],
+        [
+          "friction6",
+          "commutation6",
+          "extforce6"
+        ],
+        [
+          "addedmass2"
+        ],
+        [
+          "addedmass3"
+        ],
+        [
+          "addedmass4"
+        ],
+        [
+          "addedmass5"
+        ],
+        [
+          "addedmass6"
+        ],
+        [
+          "payload"
+        ]
+      ]
+    },
+    {
+      "label": "encoders and bus current only",
+      "dropped_groups": [
+        "torque_b",
+        "torque_a",
+        "link_encoders",
+        "bus_current",
+        "motor_voltage",
+        "phase_current"
+      ],
+      "n_sensors": 12,
+      "redundancy": 12,
+      "n_classes": 1,
+      "max_class_size": 25,
+      "indiscernible_mass": 1.0,
+      "n_undetectable": 25,
+      "undetectable": [
+        "friction1",
+        "friction2",
+        "friction3",
+        "friction4",
+        "friction5",
+        "friction6",
+        "addedmass1",
+        "addedmass2",
+        "addedmass3",
+        "addedmass4",
+        "addedmass5",
+        "addedmass6",
+        "commutation1",
+        "commutation2",
+        "commutation3",
+        "commutation4",
+        "commutation5",
+        "commutation6",
+        "extforce1",
+        "extforce2",
+        "extforce3",
+        "extforce4",
+        "extforce5",
+        "extforce6",
+        "payload"
+      ],
+      "blocks": [
+        [
+          "friction1",
+          "friction2",
+          "friction3",
+          "friction4",
+          "friction5",
+          "friction6",
+          "addedmass1",
+          "addedmass2",
+          "addedmass3",
+          "addedmass4",
+          "addedmass5",
+          "addedmass6",
+          "commutation1",
+          "commutation2",
+          "commutation3",
+          "commutation4",
+          "commutation5",
+          "commutation6",
+          "extforce1",
+          "extforce2",
+          "extforce3",
+          "extforce4",
+          "extforce5",
+          "extforce6",
+          "payload"
+        ]
+      ]
+    }
+  ]
+}

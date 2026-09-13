@@ -1,0 +1,3753 @@
+{
+  "rows": [
+    {
+      "model": "kimi-k3",
+      "condition": "B",
+      "level": null,
+      "seed": 0,
+      "accuracy": 0.4166666666666667,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 157.3
+    },
+    {
+      "model": "kimi-k3",
+      "condition": "C",
+      "level": "irrelevant",
+      "seed": 0,
+      "accuracy": 0.43333333333333335,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 153.5
+    },
+    {
+      "model": "kimi-k3",
+      "condition": "C",
+      "level": "weak",
+      "seed": 0,
+      "accuracy": 0.9166666666666666,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 143.0
+    },
+    {
+      "model": "kimi-k3",
+      "condition": "C",
+      "level": "strong",
+      "seed": 0,
+      "accuracy": 1.0,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 162.4
+    },
+    {
+      "model": "kimi-k3",
+      "condition": "B",
+      "level": null,
+      "seed": 1,
+      "accuracy": 0.4,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 179.0
+    },
+    {
+      "model": "kimi-k3",
+      "condition": "C",
+      "level": "irrelevant",
+      "seed": 1,
+      "accuracy": 0.43333333333333335,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 169.7
+    },
+    {
+      "model": "kimi-k3",
+      "condition": "C",
+      "level": "weak",
+      "seed": 1,
+      "accuracy": 0.95,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 177.8
+    },
+    {
+      "model": "kimi-k3",
+      "condition": "C",
+      "level": "strong",
+      "seed": 1,
+      "accuracy": 1.0,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 194.6
+    },
+    {
+      "model": "kimi-k3",
+      "condition": "B",
+      "level": null,
+      "seed": 2,
+      "accuracy": 0.38333333333333336,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 178.8
+    },
+    {
+      "model": "kimi-k3",
+      "condition": "C",
+      "level": "irrelevant",
+      "seed": 2,
+      "accuracy": 0.43333333333333335,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 200.5
+    },
+    {
+      "model": "kimi-k3",
+      "condition": "C",
+      "level": "weak",
+      "seed": 2,
+      "accuracy": 0.9333333333333333,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 199.4
+    },
+    {
+      "model": "kimi-k3",
+      "condition": "C",
+      "level": "strong",
+      "seed": 2,
+      "accuracy": 0.95,
+      "answered": 1.0,
+      "n": 60,
+      "wall_s": 177.4
+    }
+  ],
+  "raw": {
+    "kimi-k3|B|none|0": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      }
+    ],
+    "kimi-k3|C|irrelevant|0": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      }
+    ],
+    "kimi-k3|C|weak|0": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      }
+    ],
+    "kimi-k3|C|strong|0": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      }
+    ],
+    "kimi-k3|B|none|1": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_Afeed_loss"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      }
+    ],
+    "kimi-k3|C|irrelevant|1": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_Afeed_loss"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_Afeed_loss"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      }
+    ],
+    "kimi-k3|C|weak|1": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      }
+    ],
+    "kimi-k3|C|strong|1": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      }
+    ],
+    "kimi-k3|B|none|2": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_Afeed_loss"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      }
+    ],
+    "kimi-k3|C|irrelevant|2": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_Afeed_loss"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_Afeed_loss"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_steam_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_valve"
+      }
+    ],
+    "kimi-k3|C|weak|2": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      }
+    ],
+    "kimi-k3|C|strong|2": [
+      {
+        "case": "L_reac_cw_temp_r87_s840",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r28_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r80_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s750",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r81_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r82_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s870",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s180",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s360",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r24_s600",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r27_s720",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r84_s480",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_temp_r86_s510",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r30_s390",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r29_s210",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r25_s660",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_temp_r26_s420",
+        "truth": "L_reac_cw_temp",
+        "answer": "L_reac_cw_temp"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r104_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s180",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s540",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s300",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s660",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s780",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s270",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s480",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s900",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r110_s330",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s450",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r105_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r106_s360",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r107_s750",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r109_s240",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r108_s510",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_reac_cw_valve_r111_s870",
+        "truth": "L_reac_cw_valve",
+        "answer": "L_reac_cw_valve"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s180",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s270",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s690",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r34_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r89_s810",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s900",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r32_s870",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r33_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r91_s600",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s630",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r93_s450",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s300",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r39_s510",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r95_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r37_s420",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r35_s240",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      },
+      {
+        "case": "L_cond_cw_temp_r92_s210",
+        "truth": "L_cond_cw_temp",
+        "answer": "L_cond_cw_temp"
+      }
+    ]
+  },
+  "chance": 0.4791666666666667,
+  "design": "within-subject",
+  "n_cases": 60
+}

@@ -1,0 +1,1090 @@
+{
+  "alpha": 0.01,
+  "rows": [
+    {
+      "label": "all 41 measurements",
+      "dropped": [],
+      "n_sensors": 41,
+      "residuals": [
+        "r_v1_Dfeed",
+        "r_v2_Efeed",
+        "r_v3_Afeed",
+        "r_v4_ACfeed",
+        "r_v5_recycle",
+        "r_v6_purge",
+        "r_v7_sepflow",
+        "r_v8_product",
+        "r_steam",
+        "r_cpdh",
+        "r_f6_reacfeed",
+        "r_f8_reacout",
+        "r_cwR",
+        "r_cwS",
+        "r_balA",
+        "r_balB",
+        "r_balC",
+        "r_balD",
+        "r_dec2",
+        "r_energy",
+        "r_strip_En",
+        "r_sep_En",
+        "r_kin1",
+        "r_kin2",
+        "r_kin3",
+        "r_kin4"
+      ],
+      "theoretical": {
+        "n_classes": 15,
+        "blocks": [
+          [
+            "L_feed4_AC"
+          ],
+          [
+            "L_feed4_B"
+          ],
+          [
+            "L_Dfeed_temp"
+          ],
+          [
+            "L_reac_cw_temp",
+            "L_reac_cw_valve"
+          ],
+          [
+            "L_cond_cw_temp",
+            "L_cond_cw_valve"
+          ],
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_multi"
+          ],
+          [
+            "L_Cfeed_temp"
+          ],
+          [
+            "L_kinetics"
+          ],
+          [
+            "L_steam_valve"
+          ],
+          [
+            "L_reac_UA"
+          ],
+          [
+            "L_cond_UA"
+          ],
+          [
+            "L_other_valves"
+          ],
+          [
+            "L_reac_out_flow"
+          ]
+        ],
+        "indiscernible_mass": 0.23529411764705882,
+        "undetectable_idvs": []
+      },
+      "realised_structural": {
+        "n_classes": 15,
+        "indiscernible_mass": 0.23529411764705882,
+        "blocks": [
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cfeed_temp"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_Dfeed_temp"
+          ],
+          [
+            "L_cond_UA"
+          ],
+          [
+            "L_cond_cw_temp",
+            "L_cond_cw_valve"
+          ],
+          [
+            "L_feed4_AC"
+          ],
+          [
+            "L_feed4_B"
+          ],
+          [
+            "L_feed4_multi"
+          ],
+          [
+            "L_kinetics"
+          ],
+          [
+            "L_other_valves"
+          ],
+          [
+            "L_reac_UA"
+          ],
+          [
+            "L_reac_cw_temp",
+            "L_reac_cw_valve"
+          ],
+          [
+            "L_reac_out_flow"
+          ],
+          [
+            "L_steam_valve"
+          ]
+        ]
+      },
+      "empirical": {
+        "n_residuals": 26,
+        "n_locations_with_runs": 17,
+        "mean_detection": 0.824660633484163,
+        "empirical_mass": 0.29411764705882354,
+        "empirical_mass_consistent": 0.4117647058823529,
+        "decoupling_violation": 0.17647058823529413,
+        "leaks": {
+          "L_feed4_B": [
+            "r_steam"
+          ],
+          "L_feed4_multi": [
+            "r_steam",
+            "r_cpdh"
+          ],
+          "L_cond_UA": [
+            "r_cpdh",
+            "r_balD",
+            "r_kin2"
+          ]
+        },
+        "silent": [
+          "L_Dfeed_temp",
+          "L_Cfeed_temp",
+          "L_cond_cw_valve"
+        ],
+        "truth_in_admissible": 0.6842105263157895,
+        "ambiguous_rate": 0.21052631578947367,
+        "mean_D": 1.236842105263158
+      }
+    },
+    {
+      "label": "no product analyser",
+      "dropped": [
+        "analyser_product"
+      ],
+      "n_sensors": 36,
+      "residuals": [
+        "r_v1_Dfeed",
+        "r_v2_Efeed",
+        "r_v3_Afeed",
+        "r_v4_ACfeed",
+        "r_v5_recycle",
+        "r_v6_purge",
+        "r_v7_sepflow",
+        "r_steam",
+        "r_cpdh",
+        "r_f8_reacout",
+        "r_cwR",
+        "r_cwS"
+      ],
+      "theoretical": {
+        "n_classes": 15,
+        "blocks": [
+          [
+            "L_feed4_AC"
+          ],
+          [
+            "L_feed4_B"
+          ],
+          [
+            "L_Dfeed_temp"
+          ],
+          [
+            "L_reac_cw_temp",
+            "L_reac_cw_valve"
+          ],
+          [
+            "L_cond_cw_temp",
+            "L_cond_cw_valve"
+          ],
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_multi"
+          ],
+          [
+            "L_Cfeed_temp"
+          ],
+          [
+            "L_kinetics"
+          ],
+          [
+            "L_steam_valve"
+          ],
+          [
+            "L_reac_UA"
+          ],
+          [
+            "L_cond_UA"
+          ],
+          [
+            "L_other_valves"
+          ],
+          [
+            "L_reac_out_flow"
+          ]
+        ],
+        "indiscernible_mass": 0.23529411764705882,
+        "undetectable_idvs": []
+      },
+      "realised_structural": {
+        "n_classes": 8,
+        "indiscernible_mass": 0.7058823529411765,
+        "blocks": [
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_cond_cw_temp",
+            "L_cond_cw_valve",
+            "L_cond_UA"
+          ],
+          [
+            "L_feed4_AC",
+            "L_feed4_B",
+            "L_feed4_multi",
+            "L_Dfeed_temp",
+            "L_Cfeed_temp",
+            "L_kinetics"
+          ],
+          [
+            "L_other_valves"
+          ],
+          [
+            "L_reac_cw_temp",
+            "L_reac_cw_valve",
+            "L_reac_UA"
+          ],
+          [
+            "L_reac_out_flow"
+          ],
+          [
+            "L_steam_valve"
+          ]
+        ]
+      },
+      "empirical": {
+        "n_residuals": 12,
+        "n_locations_with_runs": 17,
+        "mean_detection": 0.7326221845924873,
+        "empirical_mass": 0.5882352941176471,
+        "empirical_mass_consistent": 0.7058823529411765,
+        "decoupling_violation": 0.23529411764705882,
+        "leaks": {
+          "L_feed4_B": [
+            "r_steam"
+          ],
+          "L_feed4_multi": [
+            "r_steam",
+            "r_cpdh"
+          ],
+          "L_Afeed_loss": [
+            "r_cpdh"
+          ],
+          "L_cond_UA": [
+            "r_cpdh"
+          ]
+        },
+        "silent": [
+          "L_feed4_AC",
+          "L_Dfeed_temp",
+          "L_Cfeed_temp",
+          "L_kinetics",
+          "L_cond_cw_valve"
+        ],
+        "truth_in_admissible": 0.8289473684210527,
+        "ambiguous_rate": 0.6973684210526315,
+        "mean_D": 3.8947368421052633
+      }
+    },
+    {
+      "label": "no product/purge analysers",
+      "dropped": [
+        "analyser_product",
+        "analyser_purge"
+      ],
+      "n_sensors": 28,
+      "residuals": [
+        "r_v1_Dfeed",
+        "r_v2_Efeed",
+        "r_v3_Afeed",
+        "r_v4_ACfeed",
+        "r_steam",
+        "r_cwR"
+      ],
+      "theoretical": {
+        "n_classes": 15,
+        "blocks": [
+          [
+            "L_feed4_AC"
+          ],
+          [
+            "L_feed4_B"
+          ],
+          [
+            "L_Dfeed_temp"
+          ],
+          [
+            "L_reac_cw_temp",
+            "L_reac_cw_valve"
+          ],
+          [
+            "L_cond_cw_temp",
+            "L_cond_cw_valve"
+          ],
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_multi"
+          ],
+          [
+            "L_Cfeed_temp"
+          ],
+          [
+            "L_kinetics"
+          ],
+          [
+            "L_steam_valve"
+          ],
+          [
+            "L_reac_UA"
+          ],
+          [
+            "L_cond_UA"
+          ],
+          [
+            "L_other_valves"
+          ],
+          [
+            "L_reac_out_flow"
+          ]
+        ],
+        "indiscernible_mass": 0.23529411764705882,
+        "undetectable_idvs": []
+      },
+      "realised_structural": {
+        "n_classes": 5,
+        "indiscernible_mass": 0.8823529411764706,
+        "blocks": [
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_AC",
+            "L_feed4_B",
+            "L_feed4_multi",
+            "L_Dfeed_temp",
+            "L_Cfeed_temp",
+            "L_cond_cw_temp",
+            "L_kinetics",
+            "L_cond_cw_valve",
+            "L_cond_UA",
+            "L_reac_out_flow"
+          ],
+          [
+            "L_reac_cw_temp",
+            "L_reac_cw_valve",
+            "L_reac_UA"
+          ],
+          [
+            "L_steam_valve",
+            "L_other_valves"
+          ]
+        ]
+      },
+      "empirical": {
+        "n_residuals": 6,
+        "n_locations_with_runs": 17,
+        "mean_detection": 0.6055993755593985,
+        "empirical_mass": 0.8823529411764706,
+        "empirical_mass_consistent": 0.8823529411764706,
+        "decoupling_violation": 0.17647058823529413,
+        "leaks": {
+          "L_feed4_B": [
+            "r_steam"
+          ],
+          "L_feed4_multi": [
+            "r_steam"
+          ],
+          "L_kinetics": [
+            "r_steam"
+          ]
+        },
+        "silent": [
+          "L_feed4_AC",
+          "L_Dfeed_temp",
+          "L_Cfeed_temp",
+          "L_cond_cw_temp",
+          "L_cond_cw_valve",
+          "L_cond_UA",
+          "L_reac_out_flow"
+        ],
+        "truth_in_admissible": 0.8552631578947368,
+        "ambiguous_rate": 0.881578947368421,
+        "mean_D": 6.447368421052632
+      }
+    },
+    {
+      "label": "no composition analysers",
+      "dropped": [
+        "analyser_product",
+        "analyser_purge",
+        "analyser_feed"
+      ],
+      "n_sensors": 22,
+      "residuals": [
+        "r_v1_Dfeed",
+        "r_v2_Efeed",
+        "r_v3_Afeed",
+        "r_v4_ACfeed",
+        "r_steam",
+        "r_cwR"
+      ],
+      "theoretical": {
+        "n_classes": 15,
+        "blocks": [
+          [
+            "L_feed4_AC"
+          ],
+          [
+            "L_feed4_B"
+          ],
+          [
+            "L_Dfeed_temp"
+          ],
+          [
+            "L_reac_cw_temp",
+            "L_reac_cw_valve"
+          ],
+          [
+            "L_cond_cw_temp",
+            "L_cond_cw_valve"
+          ],
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_multi"
+          ],
+          [
+            "L_Cfeed_temp"
+          ],
+          [
+            "L_kinetics"
+          ],
+          [
+            "L_steam_valve"
+          ],
+          [
+            "L_reac_UA"
+          ],
+          [
+            "L_cond_UA"
+          ],
+          [
+            "L_other_valves"
+          ],
+          [
+            "L_reac_out_flow"
+          ]
+        ],
+        "indiscernible_mass": 0.23529411764705882,
+        "undetectable_idvs": []
+      },
+      "realised_structural": {
+        "n_classes": 5,
+        "indiscernible_mass": 0.8823529411764706,
+        "blocks": [
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_AC",
+            "L_feed4_B",
+            "L_feed4_multi",
+            "L_Dfeed_temp",
+            "L_Cfeed_temp",
+            "L_cond_cw_temp",
+            "L_kinetics",
+            "L_cond_cw_valve",
+            "L_cond_UA",
+            "L_reac_out_flow"
+          ],
+          [
+            "L_reac_cw_temp",
+            "L_reac_cw_valve",
+            "L_reac_UA"
+          ],
+          [
+            "L_steam_valve",
+            "L_other_valves"
+          ]
+        ]
+      },
+      "empirical": {
+        "n_residuals": 6,
+        "n_locations_with_runs": 17,
+        "mean_detection": 0.6055993755593985,
+        "empirical_mass": 0.8823529411764706,
+        "empirical_mass_consistent": 0.8823529411764706,
+        "decoupling_violation": 0.17647058823529413,
+        "leaks": {
+          "L_feed4_B": [
+            "r_steam"
+          ],
+          "L_feed4_multi": [
+            "r_steam"
+          ],
+          "L_kinetics": [
+            "r_steam"
+          ]
+        },
+        "silent": [
+          "L_feed4_AC",
+          "L_Dfeed_temp",
+          "L_Cfeed_temp",
+          "L_cond_cw_temp",
+          "L_cond_cw_valve",
+          "L_cond_UA",
+          "L_reac_out_flow"
+        ],
+        "truth_in_admissible": 0.8552631578947368,
+        "ambiguous_rate": 0.881578947368421,
+        "mean_D": 6.447368421052632
+      }
+    },
+    {
+      "label": "no analysers, no duty meters",
+      "dropped": [
+        "analyser_product",
+        "analyser_purge",
+        "analyser_feed",
+        "duties"
+      ],
+      "n_sensors": 20,
+      "residuals": [
+        "r_v1_Dfeed",
+        "r_v2_Efeed",
+        "r_v3_Afeed",
+        "r_v4_ACfeed",
+        "r_cwR"
+      ],
+      "theoretical": {
+        "n_classes": 14,
+        "blocks": [
+          [
+            "L_feed4_AC"
+          ],
+          [
+            "L_feed4_B"
+          ],
+          [
+            "L_Dfeed_temp"
+          ],
+          [
+            "L_reac_cw_temp",
+            "L_reac_cw_valve"
+          ],
+          [
+            "L_cond_cw_temp",
+            "L_cond_cw_valve"
+          ],
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_multi"
+          ],
+          [
+            "L_Cfeed_temp",
+            "L_steam_valve"
+          ],
+          [
+            "L_kinetics"
+          ],
+          [
+            "L_reac_UA"
+          ],
+          [
+            "L_cond_UA"
+          ],
+          [
+            "L_other_valves"
+          ],
+          [
+            "L_reac_out_flow"
+          ]
+        ],
+        "indiscernible_mass": 0.35294117647058826,
+        "undetectable_idvs": []
+      },
+      "realised_structural": {
+        "n_classes": 4,
+        "indiscernible_mass": 0.8823529411764706,
+        "blocks": [
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_AC",
+            "L_feed4_B",
+            "L_feed4_multi",
+            "L_Dfeed_temp",
+            "L_Cfeed_temp",
+            "L_cond_cw_temp",
+            "L_kinetics",
+            "L_cond_cw_valve",
+            "L_steam_valve",
+            "L_other_valves",
+            "L_cond_UA",
+            "L_reac_out_flow"
+          ],
+          [
+            "L_reac_cw_temp",
+            "L_reac_cw_valve",
+            "L_reac_UA"
+          ]
+        ]
+      },
+      "empirical": {
+        "n_residuals": 5,
+        "n_locations_with_runs": 17,
+        "mean_detection": 0.4016855059402175,
+        "empirical_mass": 0.8823529411764706,
+        "empirical_mass_consistent": 0.8823529411764706,
+        "decoupling_violation": 0.0,
+        "leaks": {},
+        "silent": [
+          "L_feed4_AC",
+          "L_feed4_B",
+          "L_feed4_multi",
+          "L_Dfeed_temp",
+          "L_Cfeed_temp",
+          "L_cond_cw_temp",
+          "L_kinetics",
+          "L_cond_cw_valve",
+          "L_steam_valve",
+          "L_other_valves",
+          "L_cond_UA",
+          "L_reac_out_flow"
+        ],
+        "truth_in_admissible": 0.9473684210526315,
+        "ambiguous_rate": 0.8421052631578947,
+        "mean_D": 9.526315789473685
+      }
+    },
+    {
+      "label": "no analysers/duties/coolant temps",
+      "dropped": [
+        "analyser_product",
+        "analyser_purge",
+        "analyser_feed",
+        "duties",
+        "coolant_temps"
+      ],
+      "n_sensors": 18,
+      "residuals": [
+        "r_v1_Dfeed",
+        "r_v2_Efeed",
+        "r_v3_Afeed",
+        "r_v4_ACfeed"
+      ],
+      "theoretical": {
+        "n_classes": 12,
+        "blocks": [
+          [
+            "L_feed4_AC"
+          ],
+          [
+            "L_feed4_B"
+          ],
+          [
+            "L_Dfeed_temp"
+          ],
+          [
+            "L_reac_UA",
+            "L_reac_cw_temp",
+            "L_reac_cw_valve"
+          ],
+          [
+            "L_cond_UA",
+            "L_cond_cw_temp",
+            "L_cond_cw_valve"
+          ],
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_multi"
+          ],
+          [
+            "L_Cfeed_temp",
+            "L_steam_valve"
+          ],
+          [
+            "L_kinetics"
+          ],
+          [
+            "L_other_valves"
+          ],
+          [
+            "L_reac_out_flow"
+          ]
+        ],
+        "indiscernible_mass": 0.47058823529411764,
+        "undetectable_idvs": []
+      },
+      "realised_structural": {
+        "n_classes": 3,
+        "indiscernible_mass": 0.8823529411764706,
+        "blocks": [
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_AC",
+            "L_feed4_B",
+            "L_feed4_multi",
+            "L_Dfeed_temp",
+            "L_Cfeed_temp",
+            "L_reac_cw_temp",
+            "L_cond_cw_temp",
+            "L_kinetics",
+            "L_reac_cw_valve",
+            "L_cond_cw_valve",
+            "L_steam_valve",
+            "L_other_valves",
+            "L_reac_UA",
+            "L_cond_UA",
+            "L_reac_out_flow"
+          ]
+        ]
+      },
+      "empirical": {
+        "n_residuals": 4,
+        "n_locations_with_runs": 17,
+        "mean_detection": 0.21052239767973635,
+        "empirical_mass": 0.8823529411764706,
+        "empirical_mass_consistent": 0.8823529411764706,
+        "decoupling_violation": 0.0,
+        "leaks": {},
+        "silent": [
+          "L_feed4_AC",
+          "L_feed4_B",
+          "L_feed4_multi",
+          "L_Dfeed_temp",
+          "L_Cfeed_temp",
+          "L_reac_cw_temp",
+          "L_cond_cw_temp",
+          "L_kinetics",
+          "L_reac_cw_valve",
+          "L_cond_cw_valve",
+          "L_steam_valve",
+          "L_other_valves",
+          "L_reac_UA",
+          "L_cond_UA",
+          "L_reac_out_flow"
+        ],
+        "truth_in_admissible": 0.9473684210526315,
+        "ambiguous_rate": 0.8421052631578947,
+        "mean_D": 13.631578947368421
+      }
+    },
+    {
+      "label": "flows, pressures and vessel temps only",
+      "dropped": [
+        "analyser_product",
+        "analyser_purge",
+        "analyser_feed",
+        "duties",
+        "coolant_temps",
+        "levels"
+      ],
+      "n_sensors": 15,
+      "residuals": [
+        "r_v1_Dfeed",
+        "r_v2_Efeed",
+        "r_v3_Afeed",
+        "r_v4_ACfeed"
+      ],
+      "theoretical": {
+        "n_classes": 12,
+        "blocks": [
+          [
+            "L_feed4_AC"
+          ],
+          [
+            "L_feed4_B"
+          ],
+          [
+            "L_Dfeed_temp"
+          ],
+          [
+            "L_reac_UA",
+            "L_reac_cw_temp",
+            "L_reac_cw_valve"
+          ],
+          [
+            "L_cond_UA",
+            "L_cond_cw_temp",
+            "L_cond_cw_valve"
+          ],
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_multi"
+          ],
+          [
+            "L_Cfeed_temp",
+            "L_steam_valve"
+          ],
+          [
+            "L_kinetics"
+          ],
+          [
+            "L_other_valves"
+          ],
+          [
+            "L_reac_out_flow"
+          ]
+        ],
+        "indiscernible_mass": 0.47058823529411764,
+        "undetectable_idvs": []
+      },
+      "realised_structural": {
+        "n_classes": 3,
+        "indiscernible_mass": 0.8823529411764706,
+        "blocks": [
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_AC",
+            "L_feed4_B",
+            "L_feed4_multi",
+            "L_Dfeed_temp",
+            "L_Cfeed_temp",
+            "L_reac_cw_temp",
+            "L_cond_cw_temp",
+            "L_kinetics",
+            "L_reac_cw_valve",
+            "L_cond_cw_valve",
+            "L_steam_valve",
+            "L_other_valves",
+            "L_reac_UA",
+            "L_cond_UA",
+            "L_reac_out_flow"
+          ]
+        ]
+      },
+      "empirical": {
+        "n_residuals": 4,
+        "n_locations_with_runs": 17,
+        "mean_detection": 0.21052239767973635,
+        "empirical_mass": 0.8823529411764706,
+        "empirical_mass_consistent": 0.8823529411764706,
+        "decoupling_violation": 0.0,
+        "leaks": {},
+        "silent": [
+          "L_feed4_AC",
+          "L_feed4_B",
+          "L_feed4_multi",
+          "L_Dfeed_temp",
+          "L_Cfeed_temp",
+          "L_reac_cw_temp",
+          "L_cond_cw_temp",
+          "L_kinetics",
+          "L_reac_cw_valve",
+          "L_cond_cw_valve",
+          "L_steam_valve",
+          "L_other_valves",
+          "L_reac_UA",
+          "L_cond_UA",
+          "L_reac_out_flow"
+        ],
+        "truth_in_admissible": 0.9473684210526315,
+        "ambiguous_rate": 0.8421052631578947,
+        "mean_D": 13.631578947368421
+      }
+    },
+    {
+      "label": "feed flows, pressures, vessel temps",
+      "dropped": [
+        "analyser_product",
+        "analyser_purge",
+        "analyser_feed",
+        "duties",
+        "coolant_temps",
+        "levels",
+        "internal_flows"
+      ],
+      "n_sensors": 10,
+      "residuals": [
+        "r_v1_Dfeed",
+        "r_v2_Efeed",
+        "r_v3_Afeed",
+        "r_v4_ACfeed"
+      ],
+      "theoretical": {
+        "n_classes": 12,
+        "blocks": [
+          [
+            "L_feed4_AC"
+          ],
+          [
+            "L_feed4_B"
+          ],
+          [
+            "L_Dfeed_temp"
+          ],
+          [
+            "L_reac_UA",
+            "L_reac_cw_temp",
+            "L_reac_cw_valve"
+          ],
+          [
+            "L_cond_UA",
+            "L_cond_cw_temp",
+            "L_cond_cw_valve"
+          ],
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_multi"
+          ],
+          [
+            "L_Cfeed_temp",
+            "L_steam_valve"
+          ],
+          [
+            "L_kinetics"
+          ],
+          [
+            "L_other_valves"
+          ],
+          [
+            "L_reac_out_flow"
+          ]
+        ],
+        "indiscernible_mass": 0.47058823529411764,
+        "undetectable_idvs": []
+      },
+      "realised_structural": {
+        "n_classes": 3,
+        "indiscernible_mass": 0.8823529411764706,
+        "blocks": [
+          [
+            "L_Afeed_loss"
+          ],
+          [
+            "L_Cheader"
+          ],
+          [
+            "L_feed4_AC",
+            "L_feed4_B",
+            "L_feed4_multi",
+            "L_Dfeed_temp",
+            "L_Cfeed_temp",
+            "L_reac_cw_temp",
+            "L_cond_cw_temp",
+            "L_kinetics",
+            "L_reac_cw_valve",
+            "L_cond_cw_valve",
+            "L_steam_valve",
+            "L_other_valves",
+            "L_reac_UA",
+            "L_cond_UA",
+            "L_reac_out_flow"
+          ]
+        ]
+      },
+      "empirical": {
+        "n_residuals": 4,
+        "n_locations_with_runs": 17,
+        "mean_detection": 0.21052239767973635,
+        "empirical_mass": 0.8823529411764706,
+        "empirical_mass_consistent": 0.8823529411764706,
+        "decoupling_violation": 0.0,
+        "leaks": {},
+        "silent": [
+          "L_feed4_AC",
+          "L_feed4_B",
+          "L_feed4_multi",
+          "L_Dfeed_temp",
+          "L_Cfeed_temp",
+          "L_reac_cw_temp",
+          "L_cond_cw_temp",
+          "L_kinetics",
+          "L_reac_cw_valve",
+          "L_cond_cw_valve",
+          "L_steam_valve",
+          "L_other_valves",
+          "L_reac_UA",
+          "L_cond_UA",
+          "L_reac_out_flow"
+        ],
+        "truth_in_admissible": 0.9473684210526315,
+        "ambiguous_rate": 0.8421052631578947,
+        "mean_D": 13.631578947368421
+      }
+    }
+  ],
+  "n_cases": 76
+}

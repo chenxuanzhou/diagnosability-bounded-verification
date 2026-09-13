@@ -1,0 +1,425 @@
+{
+  "tep": {
+    "installed": {
+      "n_classes": 15,
+      "max_class_size": 3,
+      "indiscernible_mass": 0.4,
+      "blocks": [
+        [
+          "IDV1"
+        ],
+        [
+          "IDV2"
+        ],
+        [
+          "IDV3",
+          "IDV9"
+        ],
+        [
+          "IDV4",
+          "IDV11",
+          "IDV14"
+        ],
+        [
+          "IDV5",
+          "IDV12",
+          "IDV15"
+        ],
+        [
+          "IDV6"
+        ],
+        [
+          "IDV7"
+        ],
+        [
+          "IDV8"
+        ],
+        [
+          "IDV10"
+        ],
+        [
+          "IDV13"
+        ],
+        [
+          "IDV16"
+        ],
+        [
+          "IDV17"
+        ],
+        [
+          "IDV18"
+        ],
+        [
+          "IDV19"
+        ],
+        [
+          "IDV20"
+        ]
+      ]
+    },
+    "fully_augmented": {
+      "n_classes": 17,
+      "max_class_size": 2,
+      "indiscernible_mass": 0.3,
+      "blocks": [
+        [
+          "IDV1"
+        ],
+        [
+          "IDV2"
+        ],
+        [
+          "IDV3",
+          "IDV9"
+        ],
+        [
+          "IDV4",
+          "IDV11"
+        ],
+        [
+          "IDV5",
+          "IDV12"
+        ],
+        [
+          "IDV6"
+        ],
+        [
+          "IDV7"
+        ],
+        [
+          "IDV8"
+        ],
+        [
+          "IDV10"
+        ],
+        [
+          "IDV13"
+        ],
+        [
+          "IDV14"
+        ],
+        [
+          "IDV15"
+        ],
+        [
+          "IDV16"
+        ],
+        [
+          "IDV17"
+        ],
+        [
+          "IDV18"
+        ],
+        [
+          "IDV19"
+        ],
+        [
+          "IDV20"
+        ]
+      ]
+    },
+    "classes": [
+      {
+        "class": [
+          "IDV3",
+          "IDV9"
+        ],
+        "splitting_sensors": [],
+        "irreducible": true
+      },
+      {
+        "class": [
+          "IDV4",
+          "IDV11",
+          "IDV14"
+        ],
+        "splitting_sensors": [
+          "NEW_cw_flow_reac",
+          "NEW_cw_Tin_reac"
+        ],
+        "irreducible": false
+      },
+      {
+        "class": [
+          "IDV5",
+          "IDV12",
+          "IDV15"
+        ],
+        "splitting_sensors": [
+          "NEW_cw_flow_cond",
+          "NEW_cw_Tin_cond"
+        ],
+        "irreducible": false
+      }
+    ],
+    "catalogue": [
+      "NEW_cw_flow_cond",
+      "NEW_cw_flow_reac",
+      "NEW_cw_Tin_cond",
+      "NEW_cw_Tin_reac",
+      "NEW_Dfeed_temp",
+      "NEW_Cfeed_temp",
+      "NEW_reactor_out_flow",
+      "NEW_feed4_analyser"
+    ]
+  },
+  "robot": {
+    "installed": {
+      "n_classes": 18,
+      "max_class_size": 2,
+      "indiscernible_mass": 0.56,
+      "blocks": [
+        [
+          "friction1",
+          "commutation1"
+        ],
+        [
+          "friction2",
+          "commutation2"
+        ],
+        [
+          "friction3",
+          "commutation3"
+        ],
+        [
+          "friction4",
+          "commutation4"
+        ],
+        [
+          "friction5",
+          "commutation5"
+        ],
+        [
+          "friction6",
+          "commutation6"
+        ],
+        [
+          "addedmass1",
+          "extforce1"
+        ],
+        [
+          "addedmass2"
+        ],
+        [
+          "addedmass3"
+        ],
+        [
+          "addedmass4"
+        ],
+        [
+          "addedmass5"
+        ],
+        [
+          "addedmass6"
+        ],
+        [
+          "extforce2"
+        ],
+        [
+          "extforce3"
+        ],
+        [
+          "extforce4"
+        ],
+        [
+          "extforce5"
+        ],
+        [
+          "extforce6"
+        ],
+        [
+          "payload"
+        ]
+      ]
+    },
+    "fully_augmented": {
+      "n_classes": 25,
+      "max_class_size": 1,
+      "indiscernible_mass": 0.0,
+      "blocks": [
+        [
+          "friction1"
+        ],
+        [
+          "friction2"
+        ],
+        [
+          "friction3"
+        ],
+        [
+          "friction4"
+        ],
+        [
+          "friction5"
+        ],
+        [
+          "friction6"
+        ],
+        [
+          "addedmass1"
+        ],
+        [
+          "addedmass2"
+        ],
+        [
+          "addedmass3"
+        ],
+        [
+          "addedmass4"
+        ],
+        [
+          "addedmass5"
+        ],
+        [
+          "addedmass6"
+        ],
+        [
+          "commutation1"
+        ],
+        [
+          "commutation2"
+        ],
+        [
+          "commutation3"
+        ],
+        [
+          "commutation4"
+        ],
+        [
+          "commutation5"
+        ],
+        [
+          "commutation6"
+        ],
+        [
+          "extforce1"
+        ],
+        [
+          "extforce2"
+        ],
+        [
+          "extforce3"
+        ],
+        [
+          "extforce4"
+        ],
+        [
+          "extforce5"
+        ],
+        [
+          "extforce6"
+        ],
+        [
+          "payload"
+        ]
+      ]
+    },
+    "classes": [
+      {
+        "class": [
+          "friction1",
+          "commutation1"
+        ],
+        "splitting_sensors": [
+          "NEW_motor_torque_1",
+          "NEW_friction_obs_1"
+        ],
+        "irreducible": false
+      },
+      {
+        "class": [
+          "friction2",
+          "commutation2"
+        ],
+        "splitting_sensors": [
+          "NEW_motor_torque_2",
+          "NEW_friction_obs_2"
+        ],
+        "irreducible": false
+      },
+      {
+        "class": [
+          "friction3",
+          "commutation3"
+        ],
+        "splitting_sensors": [
+          "NEW_motor_torque_3",
+          "NEW_friction_obs_3"
+        ],
+        "irreducible": false
+      },
+      {
+        "class": [
+          "friction4",
+          "commutation4"
+        ],
+        "splitting_sensors": [
+          "NEW_motor_torque_4",
+          "NEW_friction_obs_4"
+        ],
+        "irreducible": false
+      },
+      {
+        "class": [
+          "friction5",
+          "commutation5"
+        ],
+        "splitting_sensors": [
+          "NEW_motor_torque_5",
+          "NEW_friction_obs_5"
+        ],
+        "irreducible": false
+      },
+      {
+        "class": [
+          "friction6",
+          "commutation6"
+        ],
+        "splitting_sensors": [
+          "NEW_motor_torque_6",
+          "NEW_friction_obs_6"
+        ],
+        "irreducible": false
+      },
+      {
+        "class": [
+          "addedmass1",
+          "extforce1"
+        ],
+        "splitting_sensors": [
+          "NEW_contact_ft_1"
+        ],
+        "irreducible": false
+      }
+    ],
+    "catalogue": [
+      "NEW_motor_torque_1",
+      "NEW_friction_obs_1",
+      "NEW_contact_ft_1",
+      "NEW_motor_torque_2",
+      "NEW_friction_obs_2",
+      "NEW_contact_ft_2",
+      "NEW_motor_torque_3",
+      "NEW_friction_obs_3",
+      "NEW_contact_ft_3",
+      "NEW_motor_torque_4",
+      "NEW_friction_obs_4",
+      "NEW_contact_ft_4",
+      "NEW_motor_torque_5",
+      "NEW_friction_obs_5",
+      "NEW_contact_ft_5",
+      "NEW_motor_torque_6",
+      "NEW_friction_obs_6",
+      "NEW_contact_ft_6"
+    ]
+  },
+  "irreducible": {
+    "tep": [
+      [
+        "IDV3",
+        "IDV9"
+      ]
+    ],
+    "robot": []
+  }
+}

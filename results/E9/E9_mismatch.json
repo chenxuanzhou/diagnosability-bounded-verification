@@ -1,0 +1,122 @@
+{
+  "alpha": 0.01,
+  "rows": [
+    {
+      "condition": "correct model",
+      "empirical_coverage": 0.9862068965517241,
+      "coverage_shortfall": 0.0037931034482758808,
+      "mean_detection": 0.8148567119155354,
+      "decoupling_violation": 0.17647058823529413,
+      "truth_in_admissible": 0.6710526315789473,
+      "mean_D": 1.381578947368421
+    },
+    {
+      "condition": "parameter error 1%, recalibrated",
+      "empirical_coverage": 0.9873563218390805,
+      "coverage_shortfall": 0.0026436781609194826,
+      "mean_detection": 0.8139940125234243,
+      "decoupling_violation": 0.17647058823529413,
+      "truth_in_admissible": 0.6710526315789473,
+      "mean_D": 1.381578947368421
+    },
+    {
+      "condition": "parameter error 1%, stale calibration",
+      "empirical_coverage": 0.0,
+      "coverage_shortfall": 0.99,
+      "mean_detection": 1.0,
+      "decoupling_violation": 1.0,
+      "truth_in_admissible": 0.47368421052631576,
+      "mean_D": 2.723684210526316
+    },
+    {
+      "condition": "parameter error 2%, recalibrated",
+      "empirical_coverage": 0.9896551724137931,
+      "coverage_shortfall": 0.00034482758620690834,
+      "mean_detection": 0.8108633783248289,
+      "decoupling_violation": 0.17647058823529413,
+      "truth_in_admissible": 0.6710526315789473,
+      "mean_D": 1.394736842105263
+    },
+    {
+      "condition": "parameter error 2%, stale calibration",
+      "empirical_coverage": 0.0,
+      "coverage_shortfall": 0.99,
+      "mean_detection": 1.0,
+      "decoupling_violation": 1.0,
+      "truth_in_admissible": 0.27631578947368424,
+      "mean_D": 1.868421052631579
+    },
+    {
+      "condition": "parameter error 5%, recalibrated",
+      "empirical_coverage": 0.9896551724137931,
+      "coverage_shortfall": 0.00034482758620690834,
+      "mean_detection": 0.816783438656654,
+      "decoupling_violation": 0.35294117647058826,
+      "truth_in_admissible": 0.6578947368421053,
+      "mean_D": 1.394736842105263
+    },
+    {
+      "condition": "parameter error 5%, stale calibration",
+      "empirical_coverage": 0.0,
+      "coverage_shortfall": 0.99,
+      "mean_detection": 1.0,
+      "decoupling_violation": 1.0,
+      "truth_in_admissible": 0.13157894736842105,
+      "mean_D": 1.3026315789473684
+    },
+    {
+      "condition": "parameter error 10%, recalibrated",
+      "empirical_coverage": 0.9908045977011494,
+      "coverage_shortfall": -0.0008045977011493788,
+      "mean_detection": 0.8168120048616908,
+      "decoupling_violation": 0.4117647058823529,
+      "truth_in_admissible": 0.6710526315789473,
+      "mean_D": 1.4342105263157894
+    },
+    {
+      "condition": "parameter error 10%, stale calibration",
+      "empirical_coverage": 0.0,
+      "coverage_shortfall": 0.99,
+      "mean_detection": 1.0,
+      "decoupling_violation": 1.0,
+      "truth_in_admissible": 0.07894736842105263,
+      "mean_D": 1.394736842105263
+    },
+    {
+      "condition": "parameter error 20%, recalibrated",
+      "empirical_coverage": 0.993103448275862,
+      "coverage_shortfall": -0.003103448275862064,
+      "mean_detection": 0.8201913869175435,
+      "decoupling_violation": 0.35294117647058826,
+      "truth_in_admissible": 0.6710526315789473,
+      "mean_D": 1.4605263157894737
+    },
+    {
+      "condition": "parameter error 20%, stale calibration",
+      "empirical_coverage": 0.0,
+      "coverage_shortfall": 0.99,
+      "mean_detection": 1.0,
+      "decoupling_violation": 1.0,
+      "truth_in_admissible": 0.039473684210526314,
+      "mean_D": 1.0394736842105263
+    },
+    {
+      "condition": "accumulation terms removed",
+      "empirical_coverage": 0.9896551724137931,
+      "coverage_shortfall": 0.00034482758620690834,
+      "mean_detection": 0.8171191553544495,
+      "decoupling_violation": 0.29411764705882354,
+      "truth_in_admissible": 0.618421052631579,
+      "mean_D": 1.4078947368421053
+    },
+    {
+      "condition": "wrong signature, reactor coolant valve",
+      "empirical_coverage": 0.9862068965517241,
+      "coverage_shortfall": 0.0037931034482758808,
+      "mean_detection": 0.8148567119155354,
+      "decoupling_violation": 0.23529411764705882,
+      "truth_in_admissible": 0.618421052631579,
+      "mean_D": 1.618421052631579
+    }
+  ]
+}

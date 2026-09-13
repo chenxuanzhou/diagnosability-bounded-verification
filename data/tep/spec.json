@@ -1,0 +1,122 @@
+{
+  "nsamp": 180,
+  "hours": 48,
+  "n_samples": 960,
+  "idv_on_sample": 160,
+  "columns": [
+    "XMEAS1",
+    "XMEAS2",
+    "XMEAS3",
+    "XMEAS4",
+    "XMEAS5",
+    "XMEAS6",
+    "XMEAS7",
+    "XMEAS8",
+    "XMEAS9",
+    "XMEAS10",
+    "XMEAS11",
+    "XMEAS12",
+    "XMEAS13",
+    "XMEAS14",
+    "XMEAS15",
+    "XMEAS16",
+    "XMEAS17",
+    "XMEAS18",
+    "XMEAS19",
+    "XMEAS20",
+    "XMEAS21",
+    "XMEAS22",
+    "XMEAS23",
+    "XMEAS24",
+    "XMEAS25",
+    "XMEAS26",
+    "XMEAS27",
+    "XMEAS28",
+    "XMEAS29",
+    "XMEAS30",
+    "XMEAS31",
+    "XMEAS32",
+    "XMEAS33",
+    "XMEAS34",
+    "XMEAS35",
+    "XMEAS36",
+    "XMEAS37",
+    "XMEAS38",
+    "XMEAS39",
+    "XMEAS40",
+    "XMEAS41",
+    "XMV1",
+    "XMV2",
+    "XMV3",
+    "XMV4",
+    "XMV5",
+    "XMV6",
+    "XMV7",
+    "XMV8",
+    "XMV9",
+    "XMV10",
+    "XMV11",
+    "XMV12"
+  ],
+  "seed_blocks": {
+    "nominal_cal": [
+      1000000,
+      40
+    ],
+    "nominal_fit": [
+      2000000,
+      40
+    ],
+    "nominal_test": [
+      3000000,
+      30
+    ],
+    "fault": [
+      4000000,
+      8
+    ],
+    "sweep_mag": [
+      5000000,
+      5
+    ],
+    "sweep_noise": [
+      6000000,
+      5
+    ]
+  },
+  "mag_grid": [
+    0.125,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "noise_grid": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    3.0
+  ],
+  "step_faults": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "walk_faults": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    16,
+    17,
+    18,
+    20
+  ]
+}
