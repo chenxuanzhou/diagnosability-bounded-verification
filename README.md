@@ -18,6 +18,19 @@ The paper places a verification layer between a language-model agent that propos
 | `figs/` | Figures, as PNG and as vector PDF |
 | `logs/llm/` | Every language-model call: prompt messages, raw response, model identifier, token usage, latency and timestamp, one JSON object per line, gzip-compressed |
 | `data/tep/` | Metadata of the generated simulation runs (`spec.json`, `*_meta.json`) |
+| `run` | Master script for Code Ocean; also runs locally |
+| `compare_results.py` | Compares regenerated result files with the stored ones |
+
+## Running on Code Ocean
+
+Select `run` in the repository root with **Set as File to Run**. Use a Python 3.12 environment with the pip packages `numpy==2.5.2`, `matplotlib==3.11.1` and `faultdiagnosistoolbox==0.12.5`.
+
+- Without attached data, the script runs Gate A, Gate B, E1, the residual-bank separation procedure, E7 and the figures, in about one minute.
+- If the Tennessee Eastman arrays are attached as data, either `tep_simulation_runs.zip` from IEEE DataPort or its extracted `data/tep/` folder, the script also runs E2, E5, E6, E9, E10, the shutdown-policy comparison and the stratified results table. This takes about five more minutes on a desktop CPU.
+- Outputs are written to `/results`: the regenerated `results/` and `figs/`, `run_log.txt`, and `comparison.txt`, which compares each regenerated JSON file with the stored copy in this repository. E10 latencies depend on the hardware and are not compared.
+- The simulator build, data generation, robot experiments and language-model experiments are not run on Code Ocean. Their stored outputs are in `results/` and `logs/llm/`.
+
+The same script runs locally, for example `DATA_DIR=data/tep RESULTS_DIR=out bash run`.
 
 ## Not included
 

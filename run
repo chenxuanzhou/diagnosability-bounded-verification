@@ -1,0 +1,135 @@
+#!/usr/bin/env bash
+# Code Ocean master script: select this file with "Set as File to Run".
+#
+# Stage 1 needs no data and always runs: the structural analyses (Gate A,
+# Gate B, E1), the residual-bank separation procedure, the model-invariance
+# summary (E7) and the figures.
+#
+# Stage 2 runs when the Tennessee Eastman simulation arrays are attached as
+# data under /data, either extracted or as the IEEE DataPort archive
+# tep_simulation_runs.zip: conformal calibration (E2), bound tightness (E5),
+# sensor ablation (E6), model mismatch (E9), latency (E10), the
+# shutdown-policy comparison and the stratified results table.  E7 and the
+# figures are then recomputed from the regenerated results.
+#
+# Not run here: data generation and the simulator build (they need gfortran
+# and the third-party Fortran source), the robot experiments (they need the
+# voraus-AD dataset), and the language-model experiments (they need API
+# access and local models).  Their stored outputs are in results/ and
+# logs/llm/.
+#
+# The scripts write relative to the repository root, so the repository is
+# copied to a temporary working directory.  The results/ and figs/ folders,
+# a run log, and a comparison with the stored results are written to
+# /results.  The comparison covers only files regenerated in this run;
+# files that were copied but not regenerated are listed as such.
+#
+# DATA_DIR and RESULTS_DIR can be overridden to run the same script outside
+# Code Ocean.
+
+set -euo pipefail
+
+CODE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DATA_DIR="${DATA_DIR:-/data}"
+RESULTS_DIR="${RESULTS_DIR:-/results}"
+WORK="$(mktemp -d)"
+
+mkdir -p "$RESULTS_DIR"
+RESULTS_DIR="$(cd "$RESULTS_DIR" && pwd)"
+if [ -d "$DATA_DIR" ]; then DATA_DIR="$(cd "$DATA_DIR" && pwd)"; fi
+exec > >(tee -a "$RESULTS_DIR/run_log.txt") 2>&1
+
+finish() {
+  status=$?
+  [ -d "$WORK/results" ] && cp -r "$WORK/results" "$RESULTS_DIR/"
+  [ -d "$WORK/figs" ] && cp -r "$WORK/figs" "$RESULTS_DIR/"
+  rm -rf "$WORK"
+  echo
+  echo "exit status $status; outputs in $RESULTS_DIR"
+  exit "$status"
+}
+trap finish EXIT
+
+step() {
+  local name="$1"
+  shift
+  echo
+  echo "=== $name"
+  local t0=$SECONDS
+  "$@"
+  echo "--- $name: $((SECONDS - t0)) s"
+}
+
+export PYTHONUNBUFFERED=1
+export MPLBACKEND=Agg
+
+cp -r "$CODE_DIR/src" "$CODE_DIR/results" "$WORK/"
+mkdir -p "$WORK/data/tep" "$WORK/logs/llm" "$WORK/figs"
+cp "$CODE_DIR"/data/tep/*.json "$WORK/data/tep/" 2>/dev/null || true
+cd "$WORK"
+
+# Result files not modified after this marker were copied, not regenerated.
+sleep 1
+touch "$WORK/.run_start"
+sleep 1
+
+echo "code:    $CODE_DIR"
+echo "data:    $DATA_DIR"
+echo "results: $RESULTS_DIR"
+python --version
+
+# ---------------------------------------------------------------- stage 1
+step "Gate B, Tennessee Eastman structural model" python src/tep/run_gateB.py
+step "Gate A, robot structural model" python src/robot/run_gateA.py
+step "E1, structural characterisation" python src/structural/run_E1.py
+step "E1, instrument augmentation" python src/structural/run_E1_augment.py
+step "Residual-bank separation procedure" python src/verifier/annihilators.py
+
+# ---------------------------------------------------------------- stage 2
+tep_dir=""
+if [ -d "$DATA_DIR" ]; then
+  found="$(find "$DATA_DIR" -name fault_X.npy -print -quit 2>/dev/null || true)"
+  if [ -n "$found" ]; then
+    tep_dir="$(dirname "$found")"
+  else
+    archive="$(find "$DATA_DIR" -name tep_simulation_runs.zip -print -quit 2>/dev/null || true)"
+    if [ -n "$archive" ]; then
+      echo "extracting $archive"
+      python -c "import sys, zipfile; zipfile.ZipFile(sys.argv[1]).extractall(sys.argv[2])" \
+        "$archive" "$WORK/_tep_archive"
+      tep_dir="$(dirname "$(find "$WORK/_tep_archive" -name fault_X.npy -print -quit)")"
+    fi
+  fi
+fi
+
+if [ -n "$tep_dir" ]; then
+  echo
+  echo "Tennessee Eastman arrays found in $tep_dir"
+  for f in "$tep_dir"/*_X.npy "$tep_dir"/*_meta.json "$tep_dir"/spec.json; do
+    ln -sf "$f" "$WORK/data/tep/$(basename "$f")"
+  done
+  for g in "$CODE_DIR"/logs/llm/*.jsonl.gz; do
+    [ -e "$g" ] || continue
+    python -c "import gzip, shutil, sys; shutil.copyfileobj(gzip.open(sys.argv[1]), open(sys.argv[2], 'wb'))" \
+      "$g" "$WORK/logs/llm/$(basename "${g%.gz}")"
+  done
+  step "E2, conformal calibration" python src/verifier/run_E2.py
+  step "E5, bound tightness" python src/eval/run_E5.py
+  step "E6, sensor ablation" python src/eval/run_E6.py
+  step "E9, model mismatch" python src/eval/run_E9.py
+  step "E10, latency" python src/eval/run_E10.py
+  step "Shutdown-policy comparison" python src/eval/run_shutdown_policy.py
+  step "Stratified results table" python src/eval/run_strata.py \
+    --per-location 6 --nf 12 --grids E4_final,E4_final_local --tag final
+else
+  echo
+  echo "No Tennessee Eastman arrays under $DATA_DIR: stage 2 skipped."
+  echo "Attach tep_simulation_runs.zip (IEEE DataPort) as data to run it."
+fi
+
+# ---------------------------------------------------------------- summaries
+step "E7, model invariance" python src/eval/run_E7.py E4_final
+step "Figures" python src/eval/make_figs.py
+step "Comparison with the stored results" \
+  python "$CODE_DIR/compare_results.py" "$CODE_DIR/results" "$WORK/results" \
+  --since "$WORK/.run_start" --out "$RESULTS_DIR/comparison.txt"
