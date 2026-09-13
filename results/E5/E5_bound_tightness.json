@@ -1,0 +1,1103 @@
+{
+  "theoretical_mass": 0.23529411764705882,
+  "structural_classes": [
+    [
+      "L_feed4_AC"
+    ],
+    [
+      "L_feed4_B"
+    ],
+    [
+      "L_Dfeed_temp"
+    ],
+    [
+      "L_reac_cw_temp",
+      "L_reac_cw_valve"
+    ],
+    [
+      "L_cond_cw_temp",
+      "L_cond_cw_valve"
+    ],
+    [
+      "L_Afeed_loss"
+    ],
+    [
+      "L_Cheader"
+    ],
+    [
+      "L_feed4_multi"
+    ],
+    [
+      "L_Cfeed_temp"
+    ],
+    [
+      "L_kinetics"
+    ],
+    [
+      "L_steam_valve"
+    ],
+    [
+      "L_reac_UA"
+    ],
+    [
+      "L_cond_UA"
+    ],
+    [
+      "L_other_valves"
+    ],
+    [
+      "L_reac_out_flow"
+    ]
+  ],
+  "sweeps": {
+    "magnitude": {
+      "levels": [
+        {
+          "level": 0.125,
+          "n_windows": 1257,
+          "n_runs": 100,
+          "n_tripped": 5,
+          "recalibrated": false,
+          "n_locations_common": 11,
+          "n_locations_seen": 17,
+          "merge_gap": 0.5454545454545454,
+          "decoupling_violation": 0.0,
+          "merge_gap_all_seen": 0.4117647058823529,
+          "decoupling_violation_all_seen": 0.058823529411764705,
+          "mean_detection": 0.444055944055944,
+          "silent": [
+            "L_Cfeed_temp",
+            "L_Dfeed_temp",
+            "L_cond_cw_temp",
+            "L_cond_cw_valve",
+            "L_feed4_multi",
+            "L_kinetics"
+          ],
+          "detection": {
+            "L_feed4_AC": 0.07692307692307693,
+            "L_feed4_B": 1.0,
+            "L_feed4_multi": 0.09230769230769231,
+            "L_Dfeed_temp": 0.007692307692307693,
+            "L_Cfeed_temp": 0.0,
+            "L_reac_cw_temp": 0.6076923076923076,
+            "L_cond_cw_temp": 0.007692307692307693,
+            "L_Afeed_loss": 1.0,
+            "L_Cheader": 1.0,
+            "L_kinetics": 0.16923076923076924,
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.03076923076923077,
+            "L_steam_valve": 0.9692307692307692,
+            "L_other_valves": 1.0,
+            "L_reac_UA": 1.0,
+            "L_cond_UA": 0.9090909090909091,
+            "L_reac_out_flow": 1.0
+          },
+          "n_per_location": {
+            "L_feed4_AC": 65,
+            "L_feed4_B": 65,
+            "L_feed4_multi": 65,
+            "L_Dfeed_temp": 130,
+            "L_Cfeed_temp": 65,
+            "L_reac_cw_temp": 130,
+            "L_cond_cw_temp": 130,
+            "L_Afeed_loss": 65,
+            "L_Cheader": 65,
+            "L_kinetics": 65,
+            "L_reac_cw_valve": 65,
+            "L_cond_cw_valve": 65,
+            "L_steam_valve": 65,
+            "L_other_valves": 65,
+            "L_reac_UA": 65,
+            "L_cond_UA": 22,
+            "L_reac_out_flow": 65
+          }
+        },
+        {
+          "level": 0.25,
+          "n_windows": 1261,
+          "n_runs": 100,
+          "n_tripped": 4,
+          "recalibrated": false,
+          "n_locations_common": 11,
+          "n_locations_seen": 17,
+          "merge_gap": 0.5454545454545454,
+          "decoupling_violation": 0.0,
+          "merge_gap_all_seen": 0.35294117647058826,
+          "decoupling_violation_all_seen": 0.058823529411764705,
+          "mean_detection": 0.5321678321678323,
+          "silent": [
+            "L_Cfeed_temp",
+            "L_Dfeed_temp",
+            "L_cond_cw_temp",
+            "L_cond_cw_valve",
+            "L_feed4_multi",
+            "L_kinetics"
+          ],
+          "detection": {
+            "L_feed4_AC": 1.0,
+            "L_feed4_B": 1.0,
+            "L_feed4_multi": 0.26153846153846155,
+            "L_Dfeed_temp": 0.0,
+            "L_Cfeed_temp": 0.0,
+            "L_reac_cw_temp": 0.8923076923076924,
+            "L_cond_cw_temp": 0.17692307692307693,
+            "L_Afeed_loss": 1.0,
+            "L_Cheader": 1.0,
+            "L_kinetics": 0.49230769230769234,
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.03076923076923077,
+            "L_steam_valve": 1.0,
+            "L_other_valves": 1.0,
+            "L_reac_UA": 1.0,
+            "L_cond_UA": 1.0,
+            "L_reac_out_flow": 1.0
+          },
+          "n_per_location": {
+            "L_feed4_AC": 65,
+            "L_feed4_B": 65,
+            "L_feed4_multi": 65,
+            "L_Dfeed_temp": 130,
+            "L_Cfeed_temp": 65,
+            "L_reac_cw_temp": 130,
+            "L_cond_cw_temp": 130,
+            "L_Afeed_loss": 65,
+            "L_Cheader": 65,
+            "L_kinetics": 65,
+            "L_reac_cw_valve": 65,
+            "L_cond_cw_valve": 65,
+            "L_steam_valve": 65,
+            "L_other_valves": 65,
+            "L_reac_UA": 65,
+            "L_cond_UA": 26,
+            "L_reac_out_flow": 65
+          }
+        },
+        {
+          "level": 0.5,
+          "n_windows": 1261,
+          "n_runs": 100,
+          "n_tripped": 4,
+          "recalibrated": false,
+          "n_locations_common": 11,
+          "n_locations_seen": 17,
+          "merge_gap": 0.2727272727272727,
+          "decoupling_violation": 0.0,
+          "merge_gap_all_seen": 0.17647058823529413,
+          "decoupling_violation_all_seen": 0.058823529411764705,
+          "mean_detection": 0.6881118881118881,
+          "silent": [
+            "L_Cfeed_temp",
+            "L_Dfeed_temp",
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_feed4_AC": 1.0,
+            "L_feed4_B": 1.0,
+            "L_feed4_multi": 0.7692307692307693,
+            "L_Dfeed_temp": 0.007692307692307693,
+            "L_Cfeed_temp": 0.03076923076923077,
+            "L_reac_cw_temp": 1.0,
+            "L_cond_cw_temp": 0.7769230769230769,
+            "L_Afeed_loss": 1.0,
+            "L_Cheader": 1.0,
+            "L_kinetics": 0.9692307692307692,
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.015384615384615385,
+            "L_steam_valve": 1.0,
+            "L_other_valves": 1.0,
+            "L_reac_UA": 1.0,
+            "L_cond_UA": 1.0,
+            "L_reac_out_flow": 1.0
+          },
+          "n_per_location": {
+            "L_feed4_AC": 65,
+            "L_feed4_B": 65,
+            "L_feed4_multi": 65,
+            "L_Dfeed_temp": 130,
+            "L_Cfeed_temp": 65,
+            "L_reac_cw_temp": 130,
+            "L_cond_cw_temp": 130,
+            "L_Afeed_loss": 65,
+            "L_Cheader": 65,
+            "L_kinetics": 65,
+            "L_reac_cw_valve": 65,
+            "L_cond_cw_valve": 65,
+            "L_steam_valve": 65,
+            "L_other_valves": 65,
+            "L_reac_UA": 65,
+            "L_cond_UA": 26,
+            "L_reac_out_flow": 65
+          }
+        },
+        {
+          "level": 1.0,
+          "n_windows": 1196,
+          "n_runs": 100,
+          "n_tripped": 11,
+          "recalibrated": false,
+          "n_locations_common": 11,
+          "n_locations_seen": 17,
+          "merge_gap": 0.2727272727272727,
+          "decoupling_violation": 0.2727272727272727,
+          "merge_gap_all_seen": 0.17647058823529413,
+          "decoupling_violation_all_seen": 0.23529411764705882,
+          "mean_detection": 0.7272399475524476,
+          "silent": [
+            "L_Cfeed_temp",
+            "L_Dfeed_temp",
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_feed4_AC": 1.0,
+            "L_feed4_B": 1.0,
+            "L_feed4_multi": 1.0,
+            "L_Dfeed_temp": 0.007692307692307693,
+            "L_Cfeed_temp": 0.015384615384615385,
+            "L_reac_cw_temp": 1.0,
+            "L_cond_cw_temp": 0.9765625,
+            "L_Afeed_loss": 1.0,
+            "L_Cheader": 1.0,
+            "L_kinetics": 1.0,
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.0,
+            "L_steam_valve": 1.0,
+            "L_other_valves": 1.0,
+            "L_reac_UA": 1.0,
+            "L_cond_UA": 0.9565217391304348,
+            "L_reac_out_flow": 1.0
+          },
+          "n_per_location": {
+            "L_feed4_AC": 65,
+            "L_feed4_B": 65,
+            "L_feed4_multi": 65,
+            "L_Dfeed_temp": 130,
+            "L_Cfeed_temp": 65,
+            "L_reac_cw_temp": 130,
+            "L_cond_cw_temp": 128,
+            "L_Afeed_loss": 5,
+            "L_Cheader": 65,
+            "L_kinetics": 65,
+            "L_reac_cw_valve": 65,
+            "L_cond_cw_valve": 65,
+            "L_steam_valve": 65,
+            "L_other_valves": 65,
+            "L_reac_UA": 65,
+            "L_cond_UA": 23,
+            "L_reac_out_flow": 65
+          }
+        },
+        {
+          "level": 2.0,
+          "n_windows": 988,
+          "n_runs": 100,
+          "n_tripped": 31,
+          "recalibrated": false,
+          "n_locations_common": 11,
+          "n_locations_seen": 16,
+          "merge_gap": 0.2727272727272727,
+          "decoupling_violation": 0.2727272727272727,
+          "merge_gap_all_seen": 0.1875,
+          "decoupling_violation_all_seen": 0.375,
+          "mean_detection": 0.7496503496503496,
+          "silent": [
+            "L_Cfeed_temp",
+            "L_Dfeed_temp",
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_feed4_AC": 1.0,
+            "L_feed4_B": 1.0,
+            "L_feed4_multi": 1.0,
+            "L_Dfeed_temp": 0.0,
+            "L_Cfeed_temp": 0.24615384615384617,
+            "L_reac_cw_temp": 1.0,
+            "L_cond_cw_temp": 1.0,
+            "L_Cheader": 1.0,
+            "L_kinetics": 1.0,
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.0,
+            "L_steam_valve": 1.0,
+            "L_other_valves": 1.0,
+            "L_reac_UA": 0.9846153846153847,
+            "L_cond_UA": 0.9,
+            "L_reac_out_flow": 1.0
+          },
+          "n_per_location": {
+            "L_feed4_AC": 5,
+            "L_feed4_B": 65,
+            "L_feed4_multi": 50,
+            "L_Dfeed_temp": 130,
+            "L_Cfeed_temp": 65,
+            "L_reac_cw_temp": 130,
+            "L_cond_cw_temp": 90,
+            "L_Cheader": 20,
+            "L_kinetics": 23,
+            "L_reac_cw_valve": 65,
+            "L_cond_cw_valve": 65,
+            "L_steam_valve": 65,
+            "L_other_valves": 65,
+            "L_reac_UA": 65,
+            "L_cond_UA": 20,
+            "L_reac_out_flow": 65
+          }
+        },
+        {
+          "level": 4.0,
+          "n_windows": 546,
+          "n_runs": 60,
+          "n_tripped": 20,
+          "recalibrated": false,
+          "n_locations_common": 11,
+          "n_locations_seen": 11,
+          "merge_gap": 0.18181818181818182,
+          "decoupling_violation": 0.36363636363636365,
+          "merge_gap_all_seen": 0.18181818181818182,
+          "decoupling_violation_all_seen": 0.36363636363636365,
+          "mean_detection": 0.8085664335664337,
+          "silent": [
+            "L_Dfeed_temp",
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_feed4_B": 1.0,
+            "L_feed4_multi": 1.0,
+            "L_Dfeed_temp": 0.04807692307692308,
+            "L_Cfeed_temp": 0.8461538461538461,
+            "L_reac_cw_temp": 1.0,
+            "L_cond_cw_temp": 1.0,
+            "L_kinetics": 1.0,
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.0,
+            "L_steam_valve": 1.0,
+            "L_other_valves": 1.0
+          },
+          "n_per_location": {
+            "L_feed4_B": 52,
+            "L_feed4_multi": 18,
+            "L_Dfeed_temp": 104,
+            "L_Cfeed_temp": 52,
+            "L_reac_cw_temp": 104,
+            "L_cond_cw_temp": 3,
+            "L_kinetics": 5,
+            "L_reac_cw_valve": 52,
+            "L_cond_cw_valve": 52,
+            "L_steam_valve": 52,
+            "L_other_valves": 52
+          }
+        },
+        {
+          "level": 8.0,
+          "n_windows": 358,
+          "n_runs": 60,
+          "n_tripped": 36,
+          "recalibrated": false,
+          "n_locations_common": 11,
+          "n_locations_seen": 11,
+          "merge_gap": 0.18181818181818182,
+          "decoupling_violation": 0.5454545454545454,
+          "merge_gap_all_seen": 0.18181818181818182,
+          "decoupling_violation_all_seen": 0.5454545454545454,
+          "mean_detection": 0.8346445221445222,
+          "silent": [
+            "L_Dfeed_temp",
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_feed4_B": 1.0,
+            "L_feed4_multi": 1.0,
+            "L_Dfeed_temp": 0.18269230769230768,
+            "L_Cfeed_temp": 0.9791666666666666,
+            "L_reac_cw_temp": 1.0,
+            "L_cond_cw_temp": 1.0,
+            "L_kinetics": 1.0,
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.019230769230769232,
+            "L_steam_valve": 1.0,
+            "L_other_valves": 1.0
+          },
+          "n_per_location": {
+            "L_feed4_B": 4,
+            "L_feed4_multi": 2,
+            "L_Dfeed_temp": 104,
+            "L_Cfeed_temp": 48,
+            "L_reac_cw_temp": 12,
+            "L_cond_cw_temp": 1,
+            "L_kinetics": 2,
+            "L_reac_cw_valve": 52,
+            "L_cond_cw_valve": 52,
+            "L_steam_valve": 29,
+            "L_other_valves": 52
+          }
+        }
+      ],
+      "common_population": [
+        "L_Cfeed_temp",
+        "L_Dfeed_temp",
+        "L_cond_cw_temp",
+        "L_cond_cw_valve",
+        "L_feed4_B",
+        "L_feed4_multi",
+        "L_kinetics",
+        "L_other_valves",
+        "L_reac_cw_temp",
+        "L_reac_cw_valve",
+        "L_steam_valve"
+      ]
+    },
+    "stiction": {
+      "levels": [
+        {
+          "level": 0.25,
+          "n_windows": 156,
+          "n_runs": 12,
+          "n_tripped": 0,
+          "recalibrated": false,
+          "n_locations_common": 3,
+          "n_locations_seen": 3,
+          "merge_gap": 0.6666666666666666,
+          "decoupling_violation": 0.0,
+          "merge_gap_all_seen": 0.6666666666666666,
+          "decoupling_violation_all_seen": 0.0,
+          "mean_detection": 0.2371794871794872,
+          "silent": [
+            "L_cond_cw_valve",
+            "L_other_valves"
+          ],
+          "detection": {
+            "L_reac_cw_valve": 0.6730769230769231,
+            "L_cond_cw_valve": 0.0,
+            "L_other_valves": 0.038461538461538464
+          },
+          "n_per_location": {
+            "L_reac_cw_valve": 52,
+            "L_cond_cw_valve": 52,
+            "L_other_valves": 52
+          }
+        },
+        {
+          "level": 0.5,
+          "n_windows": 156,
+          "n_runs": 12,
+          "n_tripped": 0,
+          "recalibrated": false,
+          "n_locations_common": 3,
+          "n_locations_seen": 3,
+          "merge_gap": 0.3333333333333333,
+          "decoupling_violation": 0.0,
+          "merge_gap_all_seen": 0.3333333333333333,
+          "decoupling_violation_all_seen": 0.0,
+          "mean_detection": 0.6666666666666666,
+          "silent": [
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.0,
+            "L_other_valves": 1.0
+          },
+          "n_per_location": {
+            "L_reac_cw_valve": 52,
+            "L_cond_cw_valve": 52,
+            "L_other_valves": 52
+          }
+        },
+        {
+          "level": 1.0,
+          "n_windows": 156,
+          "n_runs": 12,
+          "n_tripped": 0,
+          "recalibrated": false,
+          "n_locations_common": 3,
+          "n_locations_seen": 3,
+          "merge_gap": 0.3333333333333333,
+          "decoupling_violation": 0.0,
+          "merge_gap_all_seen": 0.3333333333333333,
+          "decoupling_violation_all_seen": 0.0,
+          "mean_detection": 0.6666666666666666,
+          "silent": [
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.0,
+            "L_other_valves": 1.0
+          },
+          "n_per_location": {
+            "L_reac_cw_valve": 52,
+            "L_cond_cw_valve": 52,
+            "L_other_valves": 52
+          }
+        },
+        {
+          "level": 2.0,
+          "n_windows": 156,
+          "n_runs": 12,
+          "n_tripped": 0,
+          "recalibrated": false,
+          "n_locations_common": 3,
+          "n_locations_seen": 3,
+          "merge_gap": 0.3333333333333333,
+          "decoupling_violation": 0.3333333333333333,
+          "merge_gap_all_seen": 0.3333333333333333,
+          "decoupling_violation_all_seen": 0.3333333333333333,
+          "mean_detection": 0.6923076923076922,
+          "silent": [
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.07692307692307693,
+            "L_other_valves": 1.0
+          },
+          "n_per_location": {
+            "L_reac_cw_valve": 52,
+            "L_cond_cw_valve": 52,
+            "L_other_valves": 52
+          }
+        },
+        {
+          "level": 4.0,
+          "n_windows": 147,
+          "n_runs": 12,
+          "n_tripped": 2,
+          "recalibrated": false,
+          "n_locations_common": 3,
+          "n_locations_seen": 3,
+          "merge_gap": 0.0,
+          "decoupling_violation": 1.0,
+          "merge_gap_all_seen": 0.0,
+          "decoupling_violation_all_seen": 1.0,
+          "mean_detection": 1.0,
+          "silent": [],
+          "detection": {
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 1.0,
+            "L_other_valves": 1.0
+          },
+          "n_per_location": {
+            "L_reac_cw_valve": 52,
+            "L_cond_cw_valve": 43,
+            "L_other_valves": 52
+          }
+        },
+        {
+          "level": 8.0,
+          "n_windows": 147,
+          "n_runs": 12,
+          "n_tripped": 1,
+          "recalibrated": false,
+          "n_locations_common": 3,
+          "n_locations_seen": 3,
+          "merge_gap": 0.0,
+          "decoupling_violation": 1.0,
+          "merge_gap_all_seen": 0.0,
+          "decoupling_violation_all_seen": 1.0,
+          "mean_detection": 1.0,
+          "silent": [],
+          "detection": {
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 1.0,
+            "L_other_valves": 1.0
+          },
+          "n_per_location": {
+            "L_reac_cw_valve": 52,
+            "L_cond_cw_valve": 43,
+            "L_other_valves": 52
+          }
+        }
+      ],
+      "common_population": [
+        "L_cond_cw_valve",
+        "L_other_valves",
+        "L_reac_cw_valve"
+      ]
+    },
+    "noise": {
+      "levels": [
+        {
+          "level": 0.25,
+          "n_windows": 1191,
+          "n_runs": 100,
+          "n_tripped": 11,
+          "recalibrated": true,
+          "n_locations_common": 17,
+          "n_locations_seen": 17,
+          "merge_gap": 0.058823529411764705,
+          "decoupling_violation": 0.5882352941176471,
+          "merge_gap_all_seen": 0.058823529411764705,
+          "decoupling_violation_all_seen": 0.5882352941176471,
+          "mean_detection": 0.9242458521870286,
+          "silent": [
+            "L_Dfeed_temp"
+          ],
+          "detection": {
+            "L_feed4_AC": 1.0,
+            "L_feed4_B": 1.0,
+            "L_feed4_multi": 1.0,
+            "L_Dfeed_temp": 0.0,
+            "L_Cfeed_temp": 0.7538461538461538,
+            "L_reac_cw_temp": 1.0,
+            "L_cond_cw_temp": 1.0,
+            "L_Afeed_loss": 1.0,
+            "L_Cheader": 1.0,
+            "L_kinetics": 1.0,
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 1.0,
+            "L_steam_valve": 1.0,
+            "L_other_valves": 1.0,
+            "L_reac_UA": 1.0,
+            "L_cond_UA": 0.9583333333333334,
+            "L_reac_out_flow": 1.0
+          },
+          "n_per_location": {
+            "L_feed4_AC": 65,
+            "L_feed4_B": 65,
+            "L_feed4_multi": 65,
+            "L_Dfeed_temp": 130,
+            "L_Cfeed_temp": 65,
+            "L_reac_cw_temp": 130,
+            "L_cond_cw_temp": 130,
+            "L_Afeed_loss": 5,
+            "L_Cheader": 65,
+            "L_kinetics": 57,
+            "L_reac_cw_valve": 65,
+            "L_cond_cw_valve": 65,
+            "L_steam_valve": 65,
+            "L_other_valves": 65,
+            "L_reac_UA": 65,
+            "L_cond_UA": 24,
+            "L_reac_out_flow": 65
+          }
+        },
+        {
+          "level": 0.5,
+          "n_windows": 1203,
+          "n_runs": 100,
+          "n_tripped": 13,
+          "recalibrated": true,
+          "n_locations_common": 17,
+          "n_locations_seen": 17,
+          "merge_gap": 0.17647058823529413,
+          "decoupling_violation": 0.4117647058823529,
+          "merge_gap_all_seen": 0.17647058823529413,
+          "decoupling_violation_all_seen": 0.4117647058823529,
+          "mean_detection": 0.842754066283478,
+          "silent": [
+            "L_Cfeed_temp",
+            "L_Dfeed_temp",
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_feed4_AC": 1.0,
+            "L_feed4_B": 1.0,
+            "L_feed4_multi": 1.0,
+            "L_Dfeed_temp": 0.03076923076923077,
+            "L_Cfeed_temp": 0.26153846153846155,
+            "L_reac_cw_temp": 1.0,
+            "L_cond_cw_temp": 1.0,
+            "L_Afeed_loss": 1.0,
+            "L_Cheader": 1.0,
+            "L_kinetics": 1.0,
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.06153846153846154,
+            "L_steam_valve": 1.0,
+            "L_other_valves": 1.0,
+            "L_reac_UA": 1.0,
+            "L_cond_UA": 0.972972972972973,
+            "L_reac_out_flow": 1.0
+          },
+          "n_per_location": {
+            "L_feed4_AC": 65,
+            "L_feed4_B": 65,
+            "L_feed4_multi": 65,
+            "L_Dfeed_temp": 130,
+            "L_Cfeed_temp": 65,
+            "L_reac_cw_temp": 130,
+            "L_cond_cw_temp": 122,
+            "L_Afeed_loss": 5,
+            "L_Cheader": 65,
+            "L_kinetics": 64,
+            "L_reac_cw_valve": 65,
+            "L_cond_cw_valve": 65,
+            "L_steam_valve": 65,
+            "L_other_valves": 65,
+            "L_reac_UA": 65,
+            "L_cond_UA": 37,
+            "L_reac_out_flow": 65
+          }
+        },
+        {
+          "level": 1.0,
+          "n_windows": 1181,
+          "n_runs": 100,
+          "n_tripped": 12,
+          "recalibrated": true,
+          "n_locations_common": 17,
+          "n_locations_seen": 17,
+          "merge_gap": 0.17647058823529413,
+          "decoupling_violation": 0.23529411764705882,
+          "merge_gap_all_seen": 0.17647058823529413,
+          "decoupling_violation_all_seen": 0.23529411764705882,
+          "mean_detection": 0.8212526036055448,
+          "silent": [
+            "L_Cfeed_temp",
+            "L_Dfeed_temp",
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_feed4_AC": 1.0,
+            "L_feed4_B": 1.0,
+            "L_feed4_multi": 0.9538461538461539,
+            "L_Dfeed_temp": 0.0,
+            "L_Cfeed_temp": 0.0,
+            "L_reac_cw_temp": 1.0,
+            "L_cond_cw_temp": 0.9920634920634921,
+            "L_Afeed_loss": 1.0,
+            "L_Cheader": 1.0,
+            "L_kinetics": 1.0,
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.015384615384615385,
+            "L_steam_valve": 1.0,
+            "L_other_valves": 1.0,
+            "L_reac_UA": 1.0,
+            "L_cond_UA": 1.0,
+            "L_reac_out_flow": 1.0
+          },
+          "n_per_location": {
+            "L_feed4_AC": 65,
+            "L_feed4_B": 65,
+            "L_feed4_multi": 65,
+            "L_Dfeed_temp": 130,
+            "L_Cfeed_temp": 65,
+            "L_reac_cw_temp": 130,
+            "L_cond_cw_temp": 126,
+            "L_Afeed_loss": 5,
+            "L_Cheader": 65,
+            "L_kinetics": 62,
+            "L_reac_cw_valve": 65,
+            "L_cond_cw_valve": 65,
+            "L_steam_valve": 65,
+            "L_other_valves": 65,
+            "L_reac_UA": 65,
+            "L_cond_UA": 13,
+            "L_reac_out_flow": 65
+          }
+        },
+        {
+          "level": 2.0,
+          "n_windows": 1191,
+          "n_runs": 100,
+          "n_tripped": 12,
+          "recalibrated": true,
+          "n_locations_common": 17,
+          "n_locations_seen": 17,
+          "merge_gap": 0.29411764705882354,
+          "decoupling_violation": 0.0,
+          "merge_gap_all_seen": 0.29411764705882354,
+          "decoupling_violation_all_seen": 0.0,
+          "mean_detection": 0.6906335321468501,
+          "silent": [
+            "L_Cfeed_temp",
+            "L_Dfeed_temp",
+            "L_cond_cw_temp",
+            "L_cond_cw_valve",
+            "L_feed4_multi"
+          ],
+          "detection": {
+            "L_feed4_AC": 1.0,
+            "L_feed4_B": 1.0,
+            "L_feed4_multi": 0.4,
+            "L_Dfeed_temp": 0.0,
+            "L_Cfeed_temp": 0.0,
+            "L_reac_cw_temp": 0.9769230769230769,
+            "L_cond_cw_temp": 0.36585365853658536,
+            "L_Afeed_loss": 1.0,
+            "L_Cheader": 1.0,
+            "L_kinetics": 0.6461538461538462,
+            "L_reac_cw_valve": 1.0,
+            "L_cond_cw_valve": 0.0,
+            "L_steam_valve": 1.0,
+            "L_other_valves": 0.5692307692307692,
+            "L_reac_UA": 1.0,
+            "L_cond_UA": 0.782608695652174,
+            "L_reac_out_flow": 1.0
+          },
+          "n_per_location": {
+            "L_feed4_AC": 65,
+            "L_feed4_B": 65,
+            "L_feed4_multi": 65,
+            "L_Dfeed_temp": 130,
+            "L_Cfeed_temp": 65,
+            "L_reac_cw_temp": 130,
+            "L_cond_cw_temp": 123,
+            "L_Afeed_loss": 5,
+            "L_Cheader": 65,
+            "L_kinetics": 65,
+            "L_reac_cw_valve": 65,
+            "L_cond_cw_valve": 65,
+            "L_steam_valve": 65,
+            "L_other_valves": 65,
+            "L_reac_UA": 65,
+            "L_cond_UA": 23,
+            "L_reac_out_flow": 65
+          }
+        },
+        {
+          "level": 3.0,
+          "n_windows": 1180,
+          "n_runs": 100,
+          "n_tripped": 12,
+          "recalibrated": true,
+          "n_locations_common": 17,
+          "n_locations_seen": 17,
+          "merge_gap": 0.9411764705882353,
+          "decoupling_violation": 0.0,
+          "merge_gap_all_seen": 0.9411764705882353,
+          "decoupling_violation_all_seen": 0.0,
+          "mean_detection": 0.08479283115961317,
+          "silent": [
+            "L_Cfeed_temp",
+            "L_Cheader",
+            "L_Dfeed_temp",
+            "L_cond_UA",
+            "L_cond_cw_temp",
+            "L_cond_cw_valve",
+            "L_feed4_AC",
+            "L_feed4_B",
+            "L_feed4_multi",
+            "L_kinetics",
+            "L_other_valves",
+            "L_reac_UA",
+            "L_reac_cw_temp",
+            "L_reac_cw_valve",
+            "L_reac_out_flow",
+            "L_steam_valve"
+          ],
+          "detection": {
+            "L_feed4_AC": 0.0,
+            "L_feed4_B": 0.0,
+            "L_feed4_multi": 0.015384615384615385,
+            "L_Dfeed_temp": 0.007692307692307693,
+            "L_Cfeed_temp": 0.0,
+            "L_reac_cw_temp": 0.007692307692307693,
+            "L_cond_cw_temp": 0.023076923076923078,
+            "L_Afeed_loss": 1.0,
+            "L_Cheader": 0.015384615384615385,
+            "L_kinetics": 0.1568627450980392,
+            "L_reac_cw_valve": 0.0,
+            "L_cond_cw_valve": 0.0,
+            "L_steam_valve": 0.07692307692307693,
+            "L_other_valves": 0.0,
+            "L_reac_UA": 0.13846153846153847,
+            "L_cond_UA": 0.0,
+            "L_reac_out_flow": 0.0
+          },
+          "n_per_location": {
+            "L_feed4_AC": 65,
+            "L_feed4_B": 65,
+            "L_feed4_multi": 65,
+            "L_Dfeed_temp": 130,
+            "L_Cfeed_temp": 65,
+            "L_reac_cw_temp": 130,
+            "L_cond_cw_temp": 130,
+            "L_Afeed_loss": 5,
+            "L_Cheader": 65,
+            "L_kinetics": 51,
+            "L_reac_cw_valve": 65,
+            "L_cond_cw_valve": 65,
+            "L_steam_valve": 65,
+            "L_other_valves": 65,
+            "L_reac_UA": 65,
+            "L_cond_UA": 19,
+            "L_reac_out_flow": 65
+          }
+        }
+      ],
+      "common_population": [
+        "L_Afeed_loss",
+        "L_Cfeed_temp",
+        "L_Cheader",
+        "L_Dfeed_temp",
+        "L_cond_UA",
+        "L_cond_cw_temp",
+        "L_cond_cw_valve",
+        "L_feed4_AC",
+        "L_feed4_B",
+        "L_feed4_multi",
+        "L_kinetics",
+        "L_other_valves",
+        "L_reac_UA",
+        "L_reac_cw_temp",
+        "L_reac_cw_valve",
+        "L_reac_out_flow",
+        "L_steam_valve"
+      ]
+    },
+    "magnitude_weak_only": {
+      "levels": [
+        {
+          "level": 4.0,
+          "n_windows": 208,
+          "n_runs": 16,
+          "n_tripped": 0,
+          "recalibrated": false,
+          "n_locations_common": 3,
+          "n_locations_seen": 3,
+          "merge_gap": 0.6666666666666666,
+          "decoupling_violation": 0.3333333333333333,
+          "merge_gap_all_seen": 0.6666666666666666,
+          "decoupling_violation_all_seen": 0.3333333333333333,
+          "mean_detection": 0.2916666666666667,
+          "silent": [
+            "L_Dfeed_temp",
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_Dfeed_temp": 0.028846153846153848,
+            "L_Cfeed_temp": 0.8461538461538461,
+            "L_cond_cw_valve": 0.0
+          },
+          "n_per_location": {
+            "L_Dfeed_temp": 104,
+            "L_Cfeed_temp": 52,
+            "L_cond_cw_valve": 52
+          }
+        },
+        {
+          "level": 8.0,
+          "n_windows": 208,
+          "n_runs": 16,
+          "n_tripped": 0,
+          "recalibrated": false,
+          "n_locations_common": 3,
+          "n_locations_seen": 3,
+          "merge_gap": 0.6666666666666666,
+          "decoupling_violation": 0.3333333333333333,
+          "merge_gap_all_seen": 0.6666666666666666,
+          "decoupling_violation_all_seen": 0.3333333333333333,
+          "mean_detection": 0.375,
+          "silent": [
+            "L_Dfeed_temp",
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_Dfeed_temp": 0.16346153846153846,
+            "L_Cfeed_temp": 0.9615384615384616,
+            "L_cond_cw_valve": 0.0
+          },
+          "n_per_location": {
+            "L_Dfeed_temp": 104,
+            "L_Cfeed_temp": 52,
+            "L_cond_cw_valve": 52
+          }
+        },
+        {
+          "level": 16.0,
+          "n_windows": 172,
+          "n_runs": 16,
+          "n_tripped": 4,
+          "recalibrated": false,
+          "n_locations_common": 3,
+          "n_locations_seen": 3,
+          "merge_gap": 0.3333333333333333,
+          "decoupling_violation": 0.3333333333333333,
+          "merge_gap_all_seen": 0.3333333333333333,
+          "decoupling_violation_all_seen": 0.3333333333333333,
+          "mean_detection": 0.5865384615384616,
+          "silent": [
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_Dfeed_temp": 0.7596153846153846,
+            "L_Cfeed_temp": 1.0,
+            "L_cond_cw_valve": 0.0
+          },
+          "n_per_location": {
+            "L_Dfeed_temp": 104,
+            "L_Cfeed_temp": 16,
+            "L_cond_cw_valve": 52
+          }
+        },
+        {
+          "level": 32.0,
+          "n_windows": 164,
+          "n_runs": 16,
+          "n_tripped": 4,
+          "recalibrated": false,
+          "n_locations_common": 3,
+          "n_locations_seen": 3,
+          "merge_gap": 0.3333333333333333,
+          "decoupling_violation": 0.3333333333333333,
+          "merge_gap_all_seen": 0.3333333333333333,
+          "decoupling_violation_all_seen": 0.3333333333333333,
+          "mean_detection": 0.6410256410256411,
+          "silent": [
+            "L_cond_cw_valve"
+          ],
+          "detection": {
+            "L_Dfeed_temp": 0.9230769230769231,
+            "L_Cfeed_temp": 1.0,
+            "L_cond_cw_valve": 0.0
+          },
+          "n_per_location": {
+            "L_Dfeed_temp": 104,
+            "L_Cfeed_temp": 8,
+            "L_cond_cw_valve": 52
+          }
+        }
+      ],
+      "common_population": [
+        "L_Cfeed_temp",
+        "L_Dfeed_temp",
+        "L_cond_cw_valve"
+      ]
+    }
+  },
+  "weak_detection_curves": {
+    "L_Dfeed_temp": {
+      "magnitude@0.125": 0.007692307692307693,
+      "magnitude@0.25": 0.0,
+      "magnitude@0.5": 0.007692307692307693,
+      "magnitude@1": 0.007692307692307693,
+      "magnitude@2": 0.0,
+      "magnitude@4": 0.04807692307692308,
+      "magnitude@8": 0.18269230769230768,
+      "magnitude_weak_only@4": 0.028846153846153848,
+      "magnitude_weak_only@8": 0.16346153846153846,
+      "magnitude_weak_only@16": 0.7596153846153846,
+      "magnitude_weak_only@32": 0.9230769230769231
+    },
+    "L_Cfeed_temp": {
+      "magnitude@0.125": 0.0,
+      "magnitude@0.25": 0.0,
+      "magnitude@0.5": 0.03076923076923077,
+      "magnitude@1": 0.015384615384615385,
+      "magnitude@2": 0.24615384615384617,
+      "magnitude@4": 0.8461538461538461,
+      "magnitude@8": 0.9791666666666666,
+      "magnitude_weak_only@4": 0.8461538461538461,
+      "magnitude_weak_only@8": 0.9615384615384616,
+      "magnitude_weak_only@16": 1.0,
+      "magnitude_weak_only@32": 1.0
+    },
+    "L_cond_cw_valve": {
+      "magnitude@0.125": 0.03076923076923077,
+      "magnitude@0.25": 0.03076923076923077,
+      "magnitude@0.5": 0.015384615384615385,
+      "magnitude@1": 0.0,
+      "magnitude@2": 0.0,
+      "magnitude@4": 0.0,
+      "magnitude@8": 0.019230769230769232,
+      "magnitude_weak_only@4": 0.0,
+      "magnitude_weak_only@8": 0.0,
+      "magnitude_weak_only@16": 0.0,
+      "magnitude_weak_only@32": 0.0,
+      "stiction@0.25": 0.0,
+      "stiction@0.5": 0.0,
+      "stiction@1": 0.0,
+      "stiction@2": 0.07692307692307693,
+      "stiction@4": 1.0,
+      "stiction@8": 1.0
+    }
+  }
+}

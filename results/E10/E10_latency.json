@@ -1,0 +1,60 @@
+{
+  "hardware": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "stages": {
+    "residual evaluation, 60-sample window": {
+      "median_ms": 3.046550000362913,
+      "p95_ms": 4.32953999898018,
+      "n": 50
+    },
+    "window feature extraction": {
+      "median_ms": 3.6237000003893627,
+      "p95_ms": 4.145804998006497,
+      "n": 50
+    },
+    "threshold and trigger": {
+      "median_ms": 0.04740000076708384,
+      "p95_ms": 0.05601999728241933,
+      "n": 500
+    },
+    "admissible set lookup": {
+      "median_ms": 0.011599997378652915,
+      "p95_ms": 0.012000000424450263,
+      "n": 2000
+    }
+  },
+  "verification_path_ms": 3.6826999985350994,
+  "streaming_path_ms": 1.9217999979446176,
+  "per_tick_residual_ms": {
+    "median_ms": 1.862799999798881,
+    "p95_ms": 2.3703850019956008,
+    "n": 200
+  },
+  "budgets_ms": {
+    "TEP composition analyser, 3 min": 180000.0,
+    "TEP continuous measurement, 1.8 s": 1800.0,
+    "robot log rate, 100 Hz": 10.0
+  },
+  "fraction_percent_batch": {
+    "TEP composition analyser, 3 min": 0.0020459444436306106,
+    "TEP continuous measurement, 1.8 s": 0.20459444436306107,
+    "robot log rate, 100 Hz": 36.826999985350994
+  },
+  "fraction_percent_streaming": {
+    "TEP composition analyser, 3 min": 0.0010676666655247875,
+    "TEP continuous measurement, 1.8 s": 0.10676666655247875,
+    "robot log rate, 100 Hz": 19.217999979446176
+  },
+  "llm_latency": {
+    "kimi-k3": {
+      "n": 2325,
+      "median_s": 7.482,
+      "p95_s": 12.767399999999993
+    },
+    "kimi-k2.6": {
+      "n": 897,
+      "median_s": 5.62,
+      "p95_s": 8.755799999999995
+    }
+  }
+}

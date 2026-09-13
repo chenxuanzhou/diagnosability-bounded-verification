@@ -1,0 +1,928 @@
+{
+  "design": "within-subject",
+  "n_cases": 60,
+  "levels": [
+    "irrelevant",
+    "weak",
+    "strong"
+  ],
+  "chance": 0.4791666666666667,
+  "logs": {
+    "irrelevant": [
+      "- Permit 4672 issued for scaffolding erection around the separator platform, no process work.\n- Work order 4913 raised: overheating reported on the hand rail in the control room store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.",
+      "- Operator note: radio channel 8 intermittent on the stripper side, telecoms informed.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 3.\n- Permit 4257 issued for scaffolding erection around the tank farm platform, no process work.",
+      "- Contractor briefing held for the separator painting campaign starting next week.\n- Operator note: radio channel 1 intermittent on the tank farm side, telecoms informed.\n- Work order 5189 closed: gasket set replaced in the control room utility room.",
+      "- Work order 4255 raised: structural deficiency reported on the gasket set in the utility store room, non-process equipment.\n- Contractor briefing held for the reactor painting campaign starting next week.\n- Housekeeping note: spill kit restocked at station 3 near the separator.",
+      "- Work order 4084 closed: cable tray cover replaced in the tank farm utility room.\n- Permit 4371 issued for scaffolding erection around the separator platform, no process work.\n- Contractor briefing held for the compressor house painting campaign starting next week.",
+      "- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 6.\n- Permit 5656 issued for scaffolding erection around the control room platform, no process work.\n- Work order 4630 raised: structural deficiency reported on the eyewash unit in the control room store room, non-process equipment.",
+      "- Shift handover: routine round completed on the stripper deck, no findings recorded.\n- Contractor briefing held for the separator painting campaign starting next week.\n- Operator note: radio channel 2 intermittent on the compressor house side, telecoms informed.",
+      "- Contractor briefing held for the compressor house painting campaign starting next week.\n- Work order 4533 raised: fail to function on demand reported on the door closer in the compressor house store room, non-process equipment.\n- Permit 5337 issued for scaffolding erection around the compressor house platform, no process work.",
+      "- Shift handover: routine round completed on the stripper deck, no findings recorded.\n- Permit 4680 issued for scaffolding erection around the tank farm platform, no process work.\n- Operator note: radio channel 3 intermittent on the control room side, telecoms informed.",
+      "- Shift handover: routine round completed on the stripper deck, no findings recorded.\n- Work order 4192 closed: gasket set replaced in the tank farm utility room.\n- Work order 4319 closed: hand rail replaced in the control room utility room.",
+      "- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 7.\n- Permit 5277 issued for scaffolding erection around the utility platform, no process work.\n- Work order 4547 raised: external leakage, utility medium reported on the gasket set in the reactor store room, non-process equipment.",
+      "- Operator note: radio channel 3 intermittent on the control room side, telecoms informed.\n- Shift handover: routine round completed on the reactor deck, no findings recorded.\n- Operator note: radio channel 3 intermittent on the compressor house side, telecoms informed.",
+      "- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.",
+      "- Housekeeping note: spill kit restocked at station 2 near the compressor house.\n- Work order 5081 closed: door closer replaced in the stripper utility room.\n- Work order 4485 closed: door closer replaced in the reactor utility room.",
+      "- Permit 5799 issued for scaffolding erection around the reactor platform, no process work.\n- Work order 5613 raised: sticking reported on the cable tray cover in the reactor store room, non-process equipment.\n- Work order 5447 raised: fail to function on demand reported on the hand rail in the stripper store room, non-process equipment.",
+      "- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 5.\n- Work order 4351 raised: abnormal instrument reading reported on the hose reel in the utility store room, non-process equipment.\n- Work order 5077 raised: structural deficiency reported on the lighting ballast in the separator store room, non-process equipment.",
+      "- Work order 4367 raised: structural deficiency reported on the lighting ballast in the tank farm store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 2.\n- Contractor briefing held for the reactor painting campaign starting next week.",
+      "- Housekeeping note: spill kit restocked at station 4 near the stripper.\n- Contractor briefing held for the utility painting campaign starting next week.\n- Contractor briefing held for the separator painting campaign starting next week.",
+      "- Work order 5836 closed: gasket set replaced in the utility utility room.\n- Work order 4523 raised: fail to function on demand reported on the cable tray cover in the tank farm store room, non-process equipment.\n- Work order 5364 closed: hose reel replaced in the stripper utility room.",
+      "- Permit 4372 issued for scaffolding erection around the compressor house platform, no process work.\n- Permit 5902 issued for scaffolding erection around the compressor house platform, no process work.\n- Work order 5239 closed: cable tray cover replaced in the compressor house utility room.",
+      "- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 2.\n- Permit 5515 issued for scaffolding erection around the utility platform, no process work.\n- Work order 4492 raised: sticking reported on the eyewash unit in the control room store room, non-process equipment.",
+      "- Contractor briefing held for the tank farm painting campaign starting next week.\n- Work order 4537 closed: hand rail replaced in the separator utility room.\n- Permit 4658 issued for scaffolding erection around the tank farm platform, no process work.",
+      "- Contractor briefing held for the compressor house painting campaign starting next week.\n- Work order 4584 raised: structural deficiency reported on the hand rail in the compressor house store room, non-process equipment.\n- Contractor briefing held for the separator painting campaign starting next week.",
+      "- Work order 5976 raised: external leakage, utility medium reported on the cable tray cover in the compressor house store room, non-process equipment.\n- Contractor briefing held for the compressor house painting campaign starting next week.\n- Permit 4750 issued for scaffolding erection around the stripper platform, no process work.",
+      "- Permit 4385 issued for scaffolding erection around the control room platform, no process work.\n- Permit 4435 issued for scaffolding erection around the reactor platform, no process work.\n- Operator note: radio channel 3 intermittent on the reactor side, telecoms informed.",
+      "- Contractor briefing held for the stripper painting campaign starting next week.\n- Housekeeping note: spill kit restocked at station 8 near the control room.\n- Contractor briefing held for the stripper painting campaign starting next week.",
+      "- Operator note: radio channel 8 intermittent on the utility side, telecoms informed.\n- Shift handover: routine round completed on the compressor house deck, no findings recorded.\n- Operator note: radio channel 3 intermittent on the reactor side, telecoms informed.",
+      "- Work order 5956 closed: door closer replaced in the compressor house utility room.\n- Contractor briefing held for the stripper painting campaign starting next week.\n- Operator note: radio channel 5 intermittent on the stripper side, telecoms informed.",
+      "- Work order 5074 raised: plugged or choked reported on the cable tray cover in the utility store room, non-process equipment.\n- Shift handover: routine round completed on the reactor deck, no findings recorded.\n- Operator note: radio channel 8 intermittent on the stripper side, telecoms informed.",
+      "- Housekeeping note: spill kit restocked at station 1 near the tank farm.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 1.\n- Contractor briefing held for the utility painting campaign starting next week.",
+      "- Work order 4656 closed: gasket set replaced in the separator utility room.\n- Housekeeping note: spill kit restocked at station 8 near the control room.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 1.",
+      "- Work order 4911 raised: overheating reported on the hand rail in the compressor house store room, non-process equipment.\n- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Shift handover: routine round completed on the tank farm deck, no findings recorded.",
+      "- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 5.\n- Work order 5818 closed: gasket set replaced in the compressor house utility room.\n- Permit 5806 issued for scaffolding erection around the utility platform, no process work.",
+      "- Operator note: radio channel 8 intermittent on the stripper side, telecoms informed.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.\n- Work order 5444 raised: plugged or choked reported on the lighting ballast in the reactor store room, non-process equipment.",
+      "- Work order 5102 closed: lighting ballast replaced in the tank farm utility room.\n- Operator note: radio channel 4 intermittent on the control room side, telecoms informed.\n- Housekeeping note: spill kit restocked at station 3 near the utility.",
+      "- Contractor briefing held for the separator painting campaign starting next week.\n- Operator note: radio channel 3 intermittent on the stripper side, telecoms informed.\n- Housekeeping note: spill kit restocked at station 5 near the utility.",
+      "- Permit 4523 issued for scaffolding erection around the compressor house platform, no process work.\n- Work order 5100 closed: cable tray cover replaced in the tank farm utility room.\n- Work order 4619 raised: fail to function on demand reported on the hand rail in the control room store room, non-process equipment.",
+      "- Operator note: radio channel 4 intermittent on the tank farm side, telecoms informed.\n- Shift handover: routine round completed on the reactor deck, no findings recorded.\n- Housekeeping note: spill kit restocked at station 6 near the compressor house.",
+      "- Work order 5623 closed: cable tray cover replaced in the control room utility room.\n- Shift handover: routine round completed on the tank farm deck, no findings recorded.\n- Permit 4252 issued for scaffolding erection around the compressor house platform, no process work.",
+      "- Contractor briefing held for the tank farm painting campaign starting next week.\n- Permit 5982 issued for scaffolding erection around the utility platform, no process work.\n- Shift handover: routine round completed on the tank farm deck, no findings recorded.",
+      "- Operator note: radio channel 5 intermittent on the tank farm side, telecoms informed.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.\n- Work order 4445 closed: door closer replaced in the stripper utility room.",
+      "- Work order 4998 closed: eyewash unit replaced in the tank farm utility room.\n- Work order 4970 raised: abnormal instrument reading reported on the eyewash unit in the utility store room, non-process equipment.\n- Shift handover: routine round completed on the separator deck, no findings recorded.",
+      "- Work order 4876 raised: overheating reported on the cable tray cover in the separator store room, non-process equipment.\n- Contractor briefing held for the utility painting campaign starting next week.\n- Contractor briefing held for the control room painting campaign starting next week.",
+      "- Work order 4728 raised: abnormal instrument reading reported on the lighting ballast in the separator store room, non-process equipment.\n- Shift handover: routine round completed on the compressor house deck, no findings recorded.\n- Operator note: radio channel 6 intermittent on the utility side, telecoms informed.",
+      "- Contractor briefing held for the utility painting campaign starting next week.\n- Permit 5867 issued for scaffolding erection around the compressor house platform, no process work.\n- Housekeeping note: spill kit restocked at station 2 near the utility.",
+      "- Work order 5012 raised: external leakage, utility medium reported on the cable tray cover in the reactor store room, non-process equipment.\n- Operator note: radio channel 4 intermittent on the separator side, telecoms informed.\n- Housekeeping note: spill kit restocked at station 8 near the stripper.",
+      "- Permit 5432 issued for scaffolding erection around the compressor house platform, no process work.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 6.\n- Housekeeping note: spill kit restocked at station 6 near the reactor.",
+      "- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Permit 5995 issued for scaffolding erection around the separator platform, no process work.\n- Work order 5011 raised: overheating reported on the lighting ballast in the stripper store room, non-process equipment.",
+      "- Operator note: radio channel 2 intermittent on the reactor side, telecoms informed.\n- Work order 4767 closed: eyewash unit replaced in the reactor utility room.\n- Permit 5506 issued for scaffolding erection around the utility platform, no process work.",
+      "- Permit 5368 issued for scaffolding erection around the control room platform, no process work.\n- Permit 4277 issued for scaffolding erection around the stripper platform, no process work.\n- Housekeeping note: spill kit restocked at station 5 near the compressor house.",
+      "- Operator note: radio channel 2 intermittent on the control room side, telecoms informed.\n- Operator note: radio channel 5 intermittent on the reactor side, telecoms informed.\n- Work order 4645 raised: abnormal instrument reading reported on the eyewash unit in the compressor house store room, non-process equipment.",
+      "- Work order 5555 raised: structural deficiency reported on the lighting ballast in the control room store room, non-process equipment.\n- Work order 5105 closed: hose reel replaced in the stripper utility room.\n- Work order 5641 closed: hand rail replaced in the utility utility room.",
+      "- Work order 5100 raised: vibration reported on the cable tray cover in the compressor house store room, non-process equipment.\n- Work order 4153 raised: vibration reported on the hand rail in the reactor store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 8.",
+      "- Contractor briefing held for the tank farm painting campaign starting next week.\n- Work order 4499 raised: overheating reported on the hose reel in the utility store room, non-process equipment.\n- Shift handover: routine round completed on the compressor house deck, no findings recorded.",
+      "- Work order 5135 closed: lighting ballast replaced in the stripper utility room.\n- Shift handover: routine round completed on the stripper deck, no findings recorded.\n- Contractor briefing held for the control room painting campaign starting next week.",
+      "- Shift handover: routine round completed on the compressor house deck, no findings recorded.\n- Permit 5434 issued for scaffolding erection around the compressor house platform, no process work.\n- Permit 4256 issued for scaffolding erection around the tank farm platform, no process work.",
+      "- Permit 4701 issued for scaffolding erection around the stripper platform, no process work.\n- Permit 4881 issued for scaffolding erection around the separator platform, no process work.\n- Shift handover: routine round completed on the separator deck, no findings recorded.",
+      "- Shift handover: routine round completed on the control room deck, no findings recorded.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 8.\n- Permit 4273 issued for scaffolding erection around the control room platform, no process work.",
+      "- Housekeeping note: spill kit restocked at station 5 near the compressor house.\n- Contractor briefing held for the control room painting campaign starting next week.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 3.",
+      "- Work order 4303 raised: overheating reported on the hand rail in the reactor store room, non-process equipment.\n- Permit 4641 issued for scaffolding erection around the separator platform, no process work.\n- Housekeeping note: spill kit restocked at station 8 near the compressor house."
+    ],
+    "weak": [
+      "- Work order 4913 raised: overheating reported on the hand rail in the control room store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.\n- Permit 4672 issued for scaffolding erection around the separator platform, no process work.\n- Utility shift log: one cooling tower cell taken out of service for cleaning, supply header affected site wide.",
+      "- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Permit 4257 issued for scaffolding erection around the tank farm platform, no process work.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 3.\n- Operator note: radio channel 8 intermittent on the stripper side, telecoms informed.",
+      "- Contractor briefing held for the separator painting campaign starting next week.\n- Operator note: radio channel 1 intermittent on the tank farm side, telecoms informed.\n- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Work order 5189 closed: gasket set replaced in the control room utility room.",
+      "- Contractor briefing held for the reactor painting campaign starting next week.\n- Housekeeping note: spill kit restocked at station 3 near the separator.\n- Work order 4255 raised: structural deficiency reported on the gasket set in the utility store room, non-process equipment.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.",
+      "- Contractor briefing held for the compressor house painting campaign starting next week.\n- Permit 4371 issued for scaffolding erection around the separator platform, no process work.\n- Work order 4084 closed: cable tray cover replaced in the tank farm utility room.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.",
+      "- Work order 4630 raised: structural deficiency reported on the eyewash unit in the control room store room, non-process equipment.\n- Permit 5656 issued for scaffolding erection around the control room platform, no process work.\n- Utility shift log: one cooling tower cell taken out of service for cleaning, supply header affected site wide.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 6.",
+      "- Contractor briefing held for the separator painting campaign starting next week.\n- Operator note: radio channel 2 intermittent on the compressor house side, telecoms informed.\n- Shift handover: routine round completed on the stripper deck, no findings recorded.\n- Utility shift log: one cooling tower cell taken out of service for cleaning, supply header affected site wide.",
+      "- Work order 4533 raised: fail to function on demand reported on the door closer in the compressor house store room, non-process equipment.\n- Permit 5337 issued for scaffolding erection around the compressor house platform, no process work.\n- Contractor briefing held for the compressor house painting campaign starting next week.\n- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.",
+      "- Operator note: radio channel 3 intermittent on the control room side, telecoms informed.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Permit 4680 issued for scaffolding erection around the tank farm platform, no process work.\n- Shift handover: routine round completed on the stripper deck, no findings recorded.",
+      "- Work order 4192 closed: gasket set replaced in the tank farm utility room.\n- Shift handover: routine round completed on the stripper deck, no findings recorded.\n- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Work order 4319 closed: hand rail replaced in the control room utility room.",
+      "- Permit 5277 issued for scaffolding erection around the utility platform, no process work.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 7.\n- Work order 4547 raised: external leakage, utility medium reported on the gasket set in the reactor store room, non-process equipment.",
+      "- Shift handover: routine round completed on the reactor deck, no findings recorded.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Operator note: radio channel 3 intermittent on the control room side, telecoms informed.\n- Operator note: radio channel 3 intermittent on the compressor house side, telecoms informed.",
+      "- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.",
+      "- Work order 4485 closed: door closer replaced in the reactor utility room.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Housekeeping note: spill kit restocked at station 2 near the compressor house.\n- Work order 5081 closed: door closer replaced in the stripper utility room.",
+      "- Work order 5447 raised: fail to function on demand reported on the hand rail in the stripper store room, non-process equipment.\n- Work order 5613 raised: sticking reported on the cable tray cover in the reactor store room, non-process equipment.\n- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Permit 5799 issued for scaffolding erection around the reactor platform, no process work.",
+      "- Work order 5077 raised: structural deficiency reported on the lighting ballast in the separator store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 5.\n- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Work order 4351 raised: abnormal instrument reading reported on the hose reel in the utility store room, non-process equipment.",
+      "- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Work order 4367 raised: structural deficiency reported on the lighting ballast in the tank farm store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 2.\n- Contractor briefing held for the reactor painting campaign starting next week.",
+      "- Contractor briefing held for the utility painting campaign starting next week.\n- Housekeeping note: spill kit restocked at station 4 near the stripper.\n- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Contractor briefing held for the separator painting campaign starting next week.",
+      "- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Work order 5836 closed: gasket set replaced in the utility utility room.\n- Work order 5364 closed: hose reel replaced in the stripper utility room.\n- Work order 4523 raised: fail to function on demand reported on the cable tray cover in the tank farm store room, non-process equipment.",
+      "- Work order 5239 closed: cable tray cover replaced in the compressor house utility room.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Permit 5902 issued for scaffolding erection around the compressor house platform, no process work.\n- Permit 4372 issued for scaffolding erection around the compressor house platform, no process work.",
+      "- Work order 4492 raised: sticking reported on the eyewash unit in the control room store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 2.\n- Permit 5515 issued for scaffolding erection around the utility platform, no process work.\n- Reliability note: instrument air supply to the utility valve actuators showed low pressure alarms twice this month.",
+      "- Contractor briefing held for the tank farm painting campaign starting next week.\n- Work order 4537 closed: hand rail replaced in the separator utility room.\n- Reliability note: instrument air supply to the utility valve actuators showed low pressure alarms twice this month.\n- Permit 4658 issued for scaffolding erection around the tank farm platform, no process work.",
+      "- Contractor briefing held for the separator painting campaign starting next week.\n- Contractor briefing held for the compressor house painting campaign starting next week.\n- Work order backlog review: several cooling water control valves carry open findings for structural deficiency.\n- Work order 4584 raised: structural deficiency reported on the hand rail in the compressor house store room, non-process equipment.",
+      "- Contractor briefing held for the compressor house painting campaign starting next week.\n- Maintenance planning: the control valve population on the cooling water services is included in this quarter's actuator inspection campaign.\n- Work order 5976 raised: external leakage, utility medium reported on the cable tray cover in the compressor house store room, non-process equipment.\n- Permit 4750 issued for scaffolding erection around the stripper platform, no process work.",
+      "- Work order backlog review: several cooling water control valves carry open findings for structural deficiency.\n- Operator note: radio channel 3 intermittent on the reactor side, telecoms informed.\n- Permit 4385 issued for scaffolding erection around the control room platform, no process work.\n- Permit 4435 issued for scaffolding erection around the reactor platform, no process work.",
+      "- Contractor briefing held for the stripper painting campaign starting next week.\n- Housekeeping note: spill kit restocked at station 8 near the control room.\n- Contractor briefing held for the stripper painting campaign starting next week.\n- Maintenance planning: the control valve population on the cooling water services is included in this quarter's actuator inspection campaign.",
+      "- Reliability note: instrument air supply to the utility valve actuators showed low pressure alarms twice this month.\n- Operator note: radio channel 3 intermittent on the reactor side, telecoms informed.\n- Shift handover: routine round completed on the compressor house deck, no findings recorded.\n- Operator note: radio channel 8 intermittent on the utility side, telecoms informed.",
+      "- Operator note: radio channel 5 intermittent on the stripper side, telecoms informed.\n- Maintenance planning: the control valve population on the cooling water services is included in this quarter's actuator inspection campaign.\n- Contractor briefing held for the stripper painting campaign starting next week.\n- Work order 5956 closed: door closer replaced in the compressor house utility room.",
+      "- Operator note: radio channel 8 intermittent on the stripper side, telecoms informed.\n- Reliability note: instrument air supply to the utility valve actuators showed low pressure alarms twice this month.\n- Work order 5074 raised: plugged or choked reported on the cable tray cover in the utility store room, non-process equipment.\n- Shift handover: routine round completed on the reactor deck, no findings recorded.",
+      "- Housekeeping note: spill kit restocked at station 1 near the tank farm.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 1.\n- Work order backlog review: several cooling water control valves carry open findings for structural deficiency.\n- Contractor briefing held for the utility painting campaign starting next week.",
+      "- Work order 4656 closed: gasket set replaced in the separator utility room.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 1.\n- Housekeeping note: spill kit restocked at station 8 near the control room.\n- Maintenance planning: the control valve population on the cooling water services is included in this quarter's actuator inspection campaign.",
+      "- Shift handover: routine round completed on the tank farm deck, no findings recorded.\n- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Maintenance planning: the control valve population on the cooling water services is included in this quarter's actuator inspection campaign.\n- Work order 4911 raised: overheating reported on the hand rail in the compressor house store room, non-process equipment.",
+      "- Maintenance planning: the control valve population on the cooling water services is included in this quarter's actuator inspection campaign.\n- Work order 5818 closed: gasket set replaced in the compressor house utility room.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 5.\n- Permit 5806 issued for scaffolding erection around the utility platform, no process work.",
+      "- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.\n- Work order 5444 raised: plugged or choked reported on the lighting ballast in the reactor store room, non-process equipment.\n- Maintenance planning: the control valve population on the cooling water services is included in this quarter's actuator inspection campaign.\n- Operator note: radio channel 8 intermittent on the stripper side, telecoms informed.",
+      "- Housekeeping note: spill kit restocked at station 3 near the utility.\n- Maintenance planning: the control valve population on the cooling water services is included in this quarter's actuator inspection campaign.\n- Operator note: radio channel 4 intermittent on the control room side, telecoms informed.\n- Work order 5102 closed: lighting ballast replaced in the tank farm utility room.",
+      "- Operator note: radio channel 3 intermittent on the stripper side, telecoms informed.\n- Housekeeping note: spill kit restocked at station 5 near the utility.\n- Reliability note: instrument air supply to the utility valve actuators showed low pressure alarms twice this month.\n- Contractor briefing held for the separator painting campaign starting next week.",
+      "- Work order 4619 raised: fail to function on demand reported on the hand rail in the control room store room, non-process equipment.\n- Permit 4523 issued for scaffolding erection around the compressor house platform, no process work.\n- Maintenance planning: the control valve population on the cooling water services is included in this quarter's actuator inspection campaign.\n- Work order 5100 closed: cable tray cover replaced in the tank farm utility room.",
+      "- Work order backlog review: several cooling water control valves carry open findings for abnormal instrument reading.\n- Shift handover: routine round completed on the reactor deck, no findings recorded.\n- Housekeeping note: spill kit restocked at station 6 near the compressor house.\n- Operator note: radio channel 4 intermittent on the tank farm side, telecoms informed.",
+      "- Maintenance planning: the control valve population on the cooling water services is included in this quarter's actuator inspection campaign.\n- Permit 4252 issued for scaffolding erection around the compressor house platform, no process work.\n- Shift handover: routine round completed on the tank farm deck, no findings recorded.\n- Work order 5623 closed: cable tray cover replaced in the control room utility room.",
+      "- Shift handover: routine round completed on the tank farm deck, no findings recorded.\n- Reliability note: instrument air supply to the utility valve actuators showed low pressure alarms twice this month.\n- Contractor briefing held for the tank farm painting campaign starting next week.\n- Permit 5982 issued for scaffolding erection around the utility platform, no process work.",
+      "- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Operator note: radio channel 5 intermittent on the tank farm side, telecoms informed.\n- Work order 4445 closed: door closer replaced in the stripper utility room.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.",
+      "- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Work order 4998 closed: eyewash unit replaced in the tank farm utility room.\n- Shift handover: routine round completed on the separator deck, no findings recorded.\n- Work order 4970 raised: abnormal instrument reading reported on the eyewash unit in the utility store room, non-process equipment.",
+      "- Contractor briefing held for the utility painting campaign starting next week.\n- Contractor briefing held for the control room painting campaign starting next week.\n- Utility shift log: one cooling tower cell taken out of service for cleaning, supply header affected site wide.\n- Work order 4876 raised: overheating reported on the cable tray cover in the separator store room, non-process equipment.",
+      "- Shift handover: routine round completed on the compressor house deck, no findings recorded.\n- Work order 4728 raised: abnormal instrument reading reported on the lighting ballast in the separator store room, non-process equipment.\n- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Operator note: radio channel 6 intermittent on the utility side, telecoms informed.",
+      "- Permit 5867 issued for scaffolding erection around the compressor house platform, no process work.\n- Contractor briefing held for the utility painting campaign starting next week.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Housekeeping note: spill kit restocked at station 2 near the utility.",
+      "- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Housekeeping note: spill kit restocked at station 8 near the stripper.\n- Work order 5012 raised: external leakage, utility medium reported on the cable tray cover in the reactor store room, non-process equipment.\n- Operator note: radio channel 4 intermittent on the separator side, telecoms informed.",
+      "- Permit 5432 issued for scaffolding erection around the compressor house platform, no process work.\n- Housekeeping note: spill kit restocked at station 6 near the reactor.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 6.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.",
+      "- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Permit 5995 issued for scaffolding erection around the separator platform, no process work.\n- Work order 5011 raised: overheating reported on the lighting ballast in the stripper store room, non-process equipment.",
+      "- Operator note: radio channel 2 intermittent on the reactor side, telecoms informed.\n- Work order 4767 closed: eyewash unit replaced in the reactor utility room.\n- Permit 5506 issued for scaffolding erection around the utility platform, no process work.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.",
+      "- Permit 4277 issued for scaffolding erection around the stripper platform, no process work.\n- Housekeeping note: spill kit restocked at station 5 near the compressor house.\n- Utility shift log: one cooling tower cell taken out of service for cleaning, supply header affected site wide.\n- Permit 5368 issued for scaffolding erection around the control room platform, no process work.",
+      "- Operator note: radio channel 5 intermittent on the reactor side, telecoms informed.\n- Work order 4645 raised: abnormal instrument reading reported on the eyewash unit in the compressor house store room, non-process equipment.\n- Operator note: radio channel 2 intermittent on the control room side, telecoms informed.\n- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.",
+      "- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Work order 5641 closed: hand rail replaced in the utility utility room.\n- Work order 5105 closed: hose reel replaced in the stripper utility room.\n- Work order 5555 raised: structural deficiency reported on the lighting ballast in the control room store room, non-process equipment.",
+      "- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Work order 4153 raised: vibration reported on the hand rail in the reactor store room, non-process equipment.\n- Work order 5100 raised: vibration reported on the cable tray cover in the compressor house store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 8.",
+      "- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Contractor briefing held for the tank farm painting campaign starting next week.\n- Shift handover: routine round completed on the compressor house deck, no findings recorded.\n- Work order 4499 raised: overheating reported on the hose reel in the utility store room, non-process equipment.",
+      "- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Work order 5135 closed: lighting ballast replaced in the stripper utility room.\n- Contractor briefing held for the control room painting campaign starting next week.\n- Shift handover: routine round completed on the stripper deck, no findings recorded.",
+      "- Utility shift log: one cooling tower cell taken out of service for cleaning, supply header affected site wide.\n- Permit 4256 issued for scaffolding erection around the tank farm platform, no process work.\n- Shift handover: routine round completed on the compressor house deck, no findings recorded.\n- Permit 5434 issued for scaffolding erection around the compressor house platform, no process work.",
+      "- Environmental log: ambient wet bulb elevated since the weekend, cooling tower approach temperature noted as marginal.\n- Shift handover: routine round completed on the separator deck, no findings recorded.\n- Permit 4701 issued for scaffolding erection around the stripper platform, no process work.\n- Permit 4881 issued for scaffolding erection around the separator platform, no process work.",
+      "- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 8.\n- Permit 4273 issued for scaffolding erection around the control room platform, no process work.\n- Shift handover: routine round completed on the control room deck, no findings recorded.\n- Utility shift log: one cooling tower cell taken out of service for cleaning, supply header affected site wide.",
+      "- Contractor briefing held for the control room painting campaign starting next week.\n- Housekeeping note: spill kit restocked at station 5 near the compressor house.\n- Utility shift log: one cooling tower cell taken out of service for cleaning, supply header affected site wide.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 3.",
+      "- Work order 4303 raised: overheating reported on the hand rail in the reactor store room, non-process equipment.\n- Utility engineering bulletin: cooling water supply temperature across the site has been running above seasonal average for several days; no equipment action raised.\n- Permit 4641 issued for scaffolding erection around the separator platform, no process work.\n- Housekeeping note: spill kit restocked at station 8 near the compressor house."
+    ],
+    "strong": [
+      "- Work order 4913 raised: overheating reported on the hand rail in the control room store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.\n- Permit 4672 issued for scaffolding erection around the separator platform, no process work.\n- Work order 5814 (2026-09-02 20:23): heat exchanger on the reactor jacket water supply isolated for cleaning; the circuit is on the bypass and is being supplied warm.",
+      "- Utility shift log 2026-09-02 04:59: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.\n- Permit 4257 issued for scaffolding erection around the tank farm platform, no process work.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 3.\n- Operator note: radio channel 8 intermittent on the stripper side, telecoms informed.",
+      "- Contractor briefing held for the separator painting campaign starting next week.\n- Operator note: radio channel 1 intermittent on the tank farm side, telecoms informed.\n- Utility shift log 2026-09-05 17:08: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.\n- Work order 5189 closed: gasket set replaced in the control room utility room.",
+      "- Contractor briefing held for the reactor painting campaign starting next week.\n- Housekeeping note: spill kit restocked at station 3 near the separator.\n- Work order 4255 raised: structural deficiency reported on the gasket set in the utility store room, non-process equipment.\n- Work order 4163 (2026-09-06 15:31): heat exchanger on the reactor jacket water supply isolated for cleaning; the circuit is on the bypass and is being supplied warm.",
+      "- Contractor briefing held for the compressor house painting campaign starting next week.\n- Permit 4371 issued for scaffolding erection around the separator platform, no process work.\n- Work order 4084 closed: cable tray cover replaced in the tank farm utility room.\n- Utility shift log 2026-09-09 10:50: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.",
+      "- Work order 4630 raised: structural deficiency reported on the eyewash unit in the control room store room, non-process equipment.\n- Permit 5656 issued for scaffolding erection around the control room platform, no process work.\n- Work order 4820 (2026-09-02 01:28): heat exchanger on the reactor jacket water supply isolated for cleaning; the circuit is on the bypass and is being supplied warm.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 6.",
+      "- Contractor briefing held for the separator painting campaign starting next week.\n- Operator note: radio channel 2 intermittent on the compressor house side, telecoms informed.\n- Shift handover: routine round completed on the stripper deck, no findings recorded.\n- Work order 4733 (2026-09-07 01:28): heat exchanger on the reactor jacket water supply isolated for cleaning; the circuit is on the bypass and is being supplied warm.",
+      "- Work order 4533 raised: fail to function on demand reported on the door closer in the compressor house store room, non-process equipment.\n- Permit 5337 issued for scaffolding erection around the compressor house platform, no process work.\n- Contractor briefing held for the compressor house painting campaign starting next week.\n- Utility shift log 2026-09-04 15:18: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.",
+      "- Operator note: radio channel 3 intermittent on the control room side, telecoms informed.\n- Utility shift log 2026-09-09 10:17: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.\n- Permit 4680 issued for scaffolding erection around the tank farm platform, no process work.\n- Shift handover: routine round completed on the stripper deck, no findings recorded.",
+      "- Work order 4192 closed: gasket set replaced in the tank farm utility room.\n- Shift handover: routine round completed on the stripper deck, no findings recorded.\n- Utility shift log 2026-09-02 23:27: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.\n- Work order 4319 closed: hand rail replaced in the control room utility room.",
+      "- Permit 5277 issued for scaffolding erection around the utility platform, no process work.\n- Utility shift log 2026-09-08 13:55: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 7.\n- Work order 4547 raised: external leakage, utility medium reported on the gasket set in the reactor store room, non-process equipment.",
+      "- Shift handover: routine round completed on the reactor deck, no findings recorded.\n- Utility shift log 2026-09-03 12:17: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.\n- Operator note: radio channel 3 intermittent on the control room side, telecoms informed.\n- Operator note: radio channel 3 intermittent on the compressor house side, telecoms informed.",
+      "- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Work order 5354 (2026-09-03 13:17): heat exchanger on the reactor jacket water supply isolated for cleaning; the circuit is on the bypass and is being supplied warm.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.",
+      "- Work order 4485 closed: door closer replaced in the reactor utility room.\n- Work order 4030 (2026-09-06 22:15): heat exchanger on the reactor jacket water supply isolated for cleaning; the circuit is on the bypass and is being supplied warm.\n- Housekeeping note: spill kit restocked at station 2 near the compressor house.\n- Work order 5081 closed: door closer replaced in the stripper utility room.",
+      "- Work order 5447 raised: fail to function on demand reported on the hand rail in the stripper store room, non-process equipment.\n- Work order 5613 raised: sticking reported on the cable tray cover in the reactor store room, non-process equipment.\n- Utility shift log 2026-09-01 21:08: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.\n- Permit 5799 issued for scaffolding erection around the reactor platform, no process work.",
+      "- Work order 5077 raised: structural deficiency reported on the lighting ballast in the separator store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 5.\n- Utility shift log 2026-09-04 22:59: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.\n- Work order 4351 raised: abnormal instrument reading reported on the hose reel in the utility store room, non-process equipment.",
+      "- Utility shift log 2026-09-07 07:03: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.\n- Work order 4367 raised: structural deficiency reported on the lighting ballast in the tank farm store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 2.\n- Contractor briefing held for the reactor painting campaign starting next week.",
+      "- Contractor briefing held for the utility painting campaign starting next week.\n- Housekeeping note: spill kit restocked at station 4 near the stripper.\n- Utility shift log 2026-09-09 07:38: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.\n- Contractor briefing held for the separator painting campaign starting next week.",
+      "- Utility shift log 2026-09-04 15:16: cooling tower fan serving the reactor jacket water circuit tripped and is locked out; supply temperature to the reactor jacket is running above set point until the motor is replaced.\n- Work order 5836 closed: gasket set replaced in the utility utility room.\n- Work order 5364 closed: hose reel replaced in the stripper utility room.\n- Work order 4523 raised: fail to function on demand reported on the cable tray cover in the tank farm store room, non-process equipment.",
+      "- Work order 5239 closed: cable tray cover replaced in the compressor house utility room.\n- Work order 5800 (2026-09-06 20:36): heat exchanger on the reactor jacket water supply isolated for cleaning; the circuit is on the bypass and is being supplied warm.\n- Permit 5902 issued for scaffolding erection around the compressor house platform, no process work.\n- Permit 4372 issued for scaffolding erection around the compressor house platform, no process work.",
+      "- Work order 4492 raised: sticking reported on the eyewash unit in the control room store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 2.\n- Permit 5515 issued for scaffolding erection around the utility platform, no process work.\n- Maintenance log 2026-09-10 10:33: the reactor cooling water control valve was stroked during the last outage and failed the stroke test with sticking; it was returned to service pending parts.",
+      "- Contractor briefing held for the tank farm painting campaign starting next week.\n- Work order 4537 closed: hand rail replaced in the separator utility room.\n- Maintenance log 2026-09-10 12:30: the reactor cooling water control valve was stroked during the last outage and failed the stroke test with fail to function on demand; it was returned to service pending parts.\n- Permit 4658 issued for scaffolding erection around the tank farm platform, no process work.",
+      "- Contractor briefing held for the separator painting campaign starting next week.\n- Contractor briefing held for the compressor house painting campaign starting next week.\n- Maintenance log 2026-09-08 01:06: the reactor cooling water control valve was stroked during the last outage and failed the stroke test with structural deficiency; it was returned to service pending parts.\n- Work order 4584 raised: structural deficiency reported on the hand rail in the compressor house store room, non-process equipment.",
+      "- Contractor briefing held for the compressor house painting campaign starting next week.\n- Work order 5833 (2026-09-01 18:53): operations report fail to function on demand on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.\n- Work order 5976 raised: external leakage, utility medium reported on the cable tray cover in the compressor house store room, non-process equipment.\n- Permit 4750 issued for scaffolding erection around the stripper platform, no process work.",
+      "- Maintenance log 2026-09-09 13:03: the reactor cooling water control valve was stroked during the last outage and failed the stroke test with structural deficiency; it was returned to service pending parts.\n- Operator note: radio channel 3 intermittent on the reactor side, telecoms informed.\n- Permit 4385 issued for scaffolding erection around the control room platform, no process work.\n- Permit 4435 issued for scaffolding erection around the reactor platform, no process work.",
+      "- Contractor briefing held for the stripper painting campaign starting next week.\n- Housekeeping note: spill kit restocked at station 8 near the control room.\n- Contractor briefing held for the stripper painting campaign starting next week.\n- Work order 5811 (2026-09-03 06:52): operations report sticking on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.",
+      "- Work order 5157 (2026-09-01 05:20): operations report fail to function on demand on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.\n- Operator note: radio channel 3 intermittent on the reactor side, telecoms informed.\n- Shift handover: routine round completed on the compressor house deck, no findings recorded.\n- Operator note: radio channel 8 intermittent on the utility side, telecoms informed.",
+      "- Operator note: radio channel 5 intermittent on the stripper side, telecoms informed.\n- Work order 4484 (2026-09-02 08:05): operations report structural deficiency on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.\n- Contractor briefing held for the stripper painting campaign starting next week.\n- Work order 5956 closed: door closer replaced in the compressor house utility room.",
+      "- Operator note: radio channel 8 intermittent on the stripper side, telecoms informed.\n- Work order 4413 (2026-09-05 18:51): operations report sticking on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.\n- Work order 5074 raised: plugged or choked reported on the cable tray cover in the utility store room, non-process equipment.\n- Shift handover: routine round completed on the reactor deck, no findings recorded.",
+      "- Housekeeping note: spill kit restocked at station 1 near the tank farm.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 1.\n- Maintenance log 2026-09-11 09:31: the reactor cooling water control valve was stroked during the last outage and failed the stroke test with structural deficiency; it was returned to service pending parts.\n- Contractor briefing held for the utility painting campaign starting next week.",
+      "- Work order 4656 closed: gasket set replaced in the separator utility room.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 1.\n- Housekeeping note: spill kit restocked at station 8 near the control room.\n- Work order 5242 (2026-09-10 11:07): operations report structural deficiency on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.",
+      "- Shift handover: routine round completed on the tank farm deck, no findings recorded.\n- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Work order 4205 (2026-09-07 00:29): operations report abnormal instrument reading on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.\n- Work order 4911 raised: overheating reported on the hand rail in the compressor house store room, non-process equipment.",
+      "- Work order 4459 (2026-09-02 06:29): operations report sticking on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.\n- Work order 5818 closed: gasket set replaced in the compressor house utility room.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 5.\n- Permit 5806 issued for scaffolding erection around the utility platform, no process work.",
+      "- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.\n- Work order 5444 raised: plugged or choked reported on the lighting ballast in the reactor store room, non-process equipment.\n- Work order 4138 (2026-09-06 19:36): operations report fail to function on demand on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.\n- Operator note: radio channel 8 intermittent on the stripper side, telecoms informed.",
+      "- Housekeeping note: spill kit restocked at station 3 near the utility.\n- Work order 4448 (2026-09-05 03:32): operations report sticking on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.\n- Operator note: radio channel 4 intermittent on the control room side, telecoms informed.\n- Work order 5102 closed: lighting ballast replaced in the tank farm utility room.",
+      "- Operator note: radio channel 3 intermittent on the stripper side, telecoms informed.\n- Housekeeping note: spill kit restocked at station 5 near the utility.\n- Maintenance log 2026-09-07 15:48: the reactor cooling water control valve was stroked during the last outage and failed the stroke test with fail to function on demand; it was returned to service pending parts.\n- Contractor briefing held for the separator painting campaign starting next week.",
+      "- Work order 4619 raised: fail to function on demand reported on the hand rail in the control room store room, non-process equipment.\n- Permit 4523 issued for scaffolding erection around the compressor house platform, no process work.\n- Work order 4412 (2026-09-09 09:05): operations report structural deficiency on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.\n- Work order 5100 closed: cable tray cover replaced in the tank farm utility room.",
+      "- Maintenance log 2026-09-04 21:22: the reactor cooling water control valve was stroked during the last outage and failed the stroke test with abnormal instrument reading; it was returned to service pending parts.\n- Shift handover: routine round completed on the reactor deck, no findings recorded.\n- Housekeeping note: spill kit restocked at station 6 near the compressor house.\n- Operator note: radio channel 4 intermittent on the tank farm side, telecoms informed.",
+      "- Work order 4993 (2026-09-06 19:21): operations report structural deficiency on the reactor cooling water control valve; the actuator does not follow the controller output smoothly. Replacement scheduled.\n- Permit 4252 issued for scaffolding erection around the compressor house platform, no process work.\n- Shift handover: routine round completed on the tank farm deck, no findings recorded.\n- Work order 5623 closed: cable tray cover replaced in the control room utility room.",
+      "- Shift handover: routine round completed on the tank farm deck, no findings recorded.\n- Maintenance log 2026-09-02 19:05: the reactor cooling water control valve was stroked during the last outage and failed the stroke test with fail to function on demand; it was returned to service pending parts.\n- Contractor briefing held for the tank farm painting campaign starting next week.\n- Permit 5982 issued for scaffolding erection around the utility platform, no process work.",
+      "- Utility shift log 2026-09-02 09:58: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.\n- Operator note: radio channel 5 intermittent on the tank farm side, telecoms informed.\n- Work order 4445 closed: door closer replaced in the stripper utility room.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 4.",
+      "- Utility shift log 2026-09-11 13:21: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.\n- Work order 4998 closed: eyewash unit replaced in the tank farm utility room.\n- Shift handover: routine round completed on the separator deck, no findings recorded.\n- Work order 4970 raised: abnormal instrument reading reported on the eyewash unit in the utility store room, non-process equipment.",
+      "- Contractor briefing held for the utility painting campaign starting next week.\n- Contractor briefing held for the control room painting campaign starting next week.\n- Work order 4919 (2026-09-11 19:12): the condenser cooling water supply is temporarily cross connected to the warm return header while the cold header is repaired.\n- Work order 4876 raised: overheating reported on the cable tray cover in the separator store room, non-process equipment.",
+      "- Shift handover: routine round completed on the compressor house deck, no findings recorded.\n- Work order 4728 raised: abnormal instrument reading reported on the lighting ballast in the separator store room, non-process equipment.\n- Utility shift log 2026-09-10 02:59: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.\n- Operator note: radio channel 6 intermittent on the utility side, telecoms informed.",
+      "- Permit 5867 issued for scaffolding erection around the compressor house platform, no process work.\n- Contractor briefing held for the utility painting campaign starting next week.\n- Work order 4776 (2026-09-01 03:41): the condenser cooling water supply is temporarily cross connected to the warm return header while the cold header is repaired.\n- Housekeeping note: spill kit restocked at station 2 near the utility.",
+      "- Utility shift log 2026-09-02 01:28: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.\n- Housekeeping note: spill kit restocked at station 8 near the stripper.\n- Work order 5012 raised: external leakage, utility medium reported on the cable tray cover in the reactor store room, non-process equipment.\n- Operator note: radio channel 4 intermittent on the separator side, telecoms informed.",
+      "- Permit 5432 issued for scaffolding erection around the compressor house platform, no process work.\n- Housekeeping note: spill kit restocked at station 6 near the reactor.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 6.\n- Utility shift log 2026-09-09 23:07: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.",
+      "- Utility shift log 2026-09-08 01:42: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.\n- Shift handover: routine round completed on the utility deck, no findings recorded.\n- Permit 5995 issued for scaffolding erection around the separator platform, no process work.\n- Work order 5011 raised: overheating reported on the lighting ballast in the stripper store room, non-process equipment.",
+      "- Operator note: radio channel 2 intermittent on the reactor side, telecoms informed.\n- Work order 4767 closed: eyewash unit replaced in the reactor utility room.\n- Permit 5506 issued for scaffolding erection around the utility platform, no process work.\n- Utility shift log 2026-09-09 03:46: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.",
+      "- Permit 4277 issued for scaffolding erection around the stripper platform, no process work.\n- Housekeeping note: spill kit restocked at station 5 near the compressor house.\n- Work order 4960 (2026-09-08 03:19): the condenser cooling water supply is temporarily cross connected to the warm return header while the cold header is repaired.\n- Permit 5368 issued for scaffolding erection around the control room platform, no process work.",
+      "- Operator note: radio channel 5 intermittent on the reactor side, telecoms informed.\n- Work order 4645 raised: abnormal instrument reading reported on the eyewash unit in the compressor house store room, non-process equipment.\n- Operator note: radio channel 2 intermittent on the control room side, telecoms informed.\n- Work order 4109 (2026-09-09 13:34): the condenser cooling water supply is temporarily cross connected to the warm return header while the cold header is repaired.",
+      "- Utility shift log 2026-09-10 01:11: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.\n- Work order 5641 closed: hand rail replaced in the utility utility room.\n- Work order 5105 closed: hose reel replaced in the stripper utility room.\n- Work order 5555 raised: structural deficiency reported on the lighting ballast in the control room store room, non-process equipment.",
+      "- Utility shift log 2026-09-09 12:26: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.\n- Work order 4153 raised: vibration reported on the hand rail in the reactor store room, non-process equipment.\n- Work order 5100 raised: vibration reported on the cable tray cover in the compressor house store room, non-process equipment.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 8.",
+      "- Utility shift log 2026-09-11 05:19: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.\n- Contractor briefing held for the tank farm painting campaign starting next week.\n- Shift handover: routine round completed on the compressor house deck, no findings recorded.\n- Work order 4499 raised: overheating reported on the hose reel in the utility store room, non-process equipment.",
+      "- Utility shift log 2026-09-05 06:52: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.\n- Work order 5135 closed: lighting ballast replaced in the stripper utility room.\n- Contractor briefing held for the control room painting campaign starting next week.\n- Shift handover: routine round completed on the stripper deck, no findings recorded.",
+      "- Work order 4242 (2026-09-08 03:43): the condenser cooling water supply is temporarily cross connected to the warm return header while the cold header is repaired.\n- Permit 4256 issued for scaffolding erection around the tank farm platform, no process work.\n- Shift handover: routine round completed on the compressor house deck, no findings recorded.\n- Permit 5434 issued for scaffolding erection around the compressor house platform, no process work.",
+      "- Work order 5860 (2026-09-02 14:39): the condenser cooling water supply is temporarily cross connected to the warm return header while the cold header is repaired.\n- Shift handover: routine round completed on the separator deck, no findings recorded.\n- Permit 4701 issued for scaffolding erection around the stripper platform, no process work.\n- Permit 4881 issued for scaffolding erection around the separator platform, no process work.",
+      "- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 8.\n- Permit 4273 issued for scaffolding erection around the control room platform, no process work.\n- Shift handover: routine round completed on the control room deck, no findings recorded.\n- Work order 4290 (2026-09-11 17:45): the condenser cooling water supply is temporarily cross connected to the warm return header while the cold header is repaired.",
+      "- Contractor briefing held for the control room painting campaign starting next week.\n- Housekeeping note: spill kit restocked at station 5 near the compressor house.\n- Work order 4881 (2026-09-09 22:26): the condenser cooling water supply is temporarily cross connected to the warm return header while the cold header is repaired.\n- Calibration due list reviewed; next batch of field transmitters scheduled for quarter 3.",
+      "- Work order 4303 raised: overheating reported on the hand rail in the reactor store room, non-process equipment.\n- Utility shift log 2026-09-09 06:04: the cooling tower cell feeding the condenser water circuit is out of service for basin repair; supply temperature to the condenser is elevated.\n- Permit 4641 issued for scaffolding erection around the separator platform, no process work.\n- Housekeeping note: spill kit restocked at station 8 near the compressor house."
+    ]
+  },
+  "cases": [
+    {
+      "id": "L_reac_cw_temp_r87_s840",
+      "location": "L_reac_cw_temp",
+      "idv": 11,
+      "run": 87,
+      "start": 840,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r28_s720",
+      "location": "L_reac_cw_temp",
+      "idv": 4,
+      "run": 28,
+      "start": 720,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r81_s180",
+      "location": "L_reac_cw_temp",
+      "idv": 11,
+      "run": 81,
+      "start": 180,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r80_s510",
+      "location": "L_reac_cw_temp",
+      "idv": 11,
+      "run": 80,
+      "start": 510,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r26_s750",
+      "location": "L_reac_cw_temp",
+      "idv": 4,
+      "run": 26,
+      "start": 750,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r81_s600",
+      "location": "L_reac_cw_temp",
+      "idv": 11,
+      "run": 81,
+      "start": 600,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r84_s390",
+      "location": "L_reac_cw_temp",
+      "idv": 11,
+      "run": 84,
+      "start": 390,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r82_s480",
+      "location": "L_reac_cw_temp",
+      "idv": 11,
+      "run": 82,
+      "start": 480,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r29_s870",
+      "location": "L_reac_cw_temp",
+      "idv": 4,
+      "run": 29,
+      "start": 870,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r24_s180",
+      "location": "L_reac_cw_temp",
+      "idv": 4,
+      "run": 24,
+      "start": 180,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r86_s360",
+      "location": "L_reac_cw_temp",
+      "idv": 11,
+      "run": 86,
+      "start": 360,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r26_s390",
+      "location": "L_reac_cw_temp",
+      "idv": 4,
+      "run": 26,
+      "start": 390,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r24_s600",
+      "location": "L_reac_cw_temp",
+      "idv": 4,
+      "run": 24,
+      "start": 600,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r27_s720",
+      "location": "L_reac_cw_temp",
+      "idv": 4,
+      "run": 27,
+      "start": 720,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r84_s480",
+      "location": "L_reac_cw_temp",
+      "idv": 11,
+      "run": 84,
+      "start": 480,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r86_s510",
+      "location": "L_reac_cw_temp",
+      "idv": 11,
+      "run": 86,
+      "start": 510,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r30_s390",
+      "location": "L_reac_cw_temp",
+      "idv": 4,
+      "run": 30,
+      "start": 390,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_Afeed_loss",
+        "L_reac_cw_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_reac_cw_temp_r29_s210",
+      "location": "L_reac_cw_temp",
+      "idv": 4,
+      "run": 29,
+      "start": 210,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r25_s660",
+      "location": "L_reac_cw_temp",
+      "idv": 4,
+      "run": 25,
+      "start": 660,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_temp_r26_s420",
+      "location": "L_reac_cw_temp",
+      "idv": 4,
+      "run": 26,
+      "start": 420,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r109_s360",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 109,
+      "start": 360,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r104_s240",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 104,
+      "start": 240,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r105_s180",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 105,
+      "start": 180,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r106_s330",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 106,
+      "start": 330,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r111_s540",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 111,
+      "start": 540,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r108_s300",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 108,
+      "start": 300,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r110_s660",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 110,
+      "start": 660,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r107_s780",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 107,
+      "start": 780,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r108_s270",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 108,
+      "start": 270,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_reac_cw_valve_r107_s480",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 107,
+      "start": 480,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r107_s240",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 107,
+      "start": 240,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r109_s900",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 109,
+      "start": 900,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r110_s330",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 110,
+      "start": 330,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r105_s450",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 105,
+      "start": 450,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r105_s870",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 105,
+      "start": 870,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r106_s360",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 106,
+      "start": 360,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r107_s750",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 107,
+      "start": 750,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r109_s240",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 109,
+      "start": 240,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r108_s510",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 108,
+      "start": 510,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_reac_cw_valve_r111_s870",
+      "location": "L_reac_cw_valve",
+      "idv": 14,
+      "run": 111,
+      "start": 870,
+      "candidates": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_cond_cw_temp_r33_s180",
+      "location": "L_cond_cw_temp",
+      "idv": 5,
+      "run": 33,
+      "start": 180,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_cond_cw_temp_r39_s270",
+      "location": "L_cond_cw_temp",
+      "idv": 5,
+      "run": 39,
+      "start": 270,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve",
+        "L_steam_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_cond_cw_temp_r89_s240",
+      "location": "L_cond_cw_temp",
+      "idv": 12,
+      "run": 89,
+      "start": 240,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_Afeed_loss",
+        "L_cond_cw_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_cond_cw_temp_r35_s630",
+      "location": "L_cond_cw_temp",
+      "idv": 5,
+      "run": 35,
+      "start": 630,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_cond_cw_temp_r32_s690",
+      "location": "L_cond_cw_temp",
+      "idv": 5,
+      "run": 32,
+      "start": 690,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_cond_cw_temp_r34_s810",
+      "location": "L_cond_cw_temp",
+      "idv": 5,
+      "run": 34,
+      "start": 810,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_cond_cw_temp_r89_s810",
+      "location": "L_cond_cw_temp",
+      "idv": 12,
+      "run": 89,
+      "start": 810,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve",
+        "L_steam_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_cond_cw_temp_r92_s900",
+      "location": "L_cond_cw_temp",
+      "idv": 12,
+      "run": 92,
+      "start": 900,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_cond_cw_temp_r35_s600",
+      "location": "L_cond_cw_temp",
+      "idv": 5,
+      "run": 35,
+      "start": 600,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_cond_cw_temp_r32_s870",
+      "location": "L_cond_cw_temp",
+      "idv": 5,
+      "run": 32,
+      "start": 870,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_cond_cw_temp_r33_s510",
+      "location": "L_cond_cw_temp",
+      "idv": 5,
+      "run": 33,
+      "start": 510,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_cond_cw_temp_r91_s600",
+      "location": "L_cond_cw_temp",
+      "idv": 12,
+      "run": 91,
+      "start": 600,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_Afeed_loss",
+        "L_cond_cw_valve",
+        "L_steam_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_cond_cw_temp_r95_s630",
+      "location": "L_cond_cw_temp",
+      "idv": 12,
+      "run": 95,
+      "start": 630,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve",
+        "L_steam_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_cond_cw_temp_r93_s450",
+      "location": "L_cond_cw_temp",
+      "idv": 12,
+      "run": 93,
+      "start": 450,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_cond_cw_temp_r92_s300",
+      "location": "L_cond_cw_temp",
+      "idv": 12,
+      "run": 92,
+      "start": 300,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_cond_cw_temp_r39_s510",
+      "location": "L_cond_cw_temp",
+      "idv": 5,
+      "run": 39,
+      "start": 510,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_cond_cw_temp_r95_s210",
+      "location": "L_cond_cw_temp",
+      "idv": 12,
+      "run": 95,
+      "start": 210,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_cond_cw_temp_r37_s420",
+      "location": "L_cond_cw_temp",
+      "idv": 5,
+      "run": 37,
+      "start": 420,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "exact"
+    },
+    {
+      "id": "L_cond_cw_temp_r35_s240",
+      "location": "L_cond_cw_temp",
+      "idv": 5,
+      "run": 35,
+      "start": 240,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve",
+        "L_steam_valve"
+      ],
+      "rule": "nearest"
+    },
+    {
+      "id": "L_cond_cw_temp_r92_s210",
+      "location": "L_cond_cw_temp",
+      "idv": 12,
+      "run": 92,
+      "start": 210,
+      "candidates": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "rule": "nearest"
+    }
+  ]
+}

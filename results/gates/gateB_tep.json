@@ -1,0 +1,129 @@
+{
+  "model": {
+    "ne": 372,
+    "nx": 334,
+    "nz": 53,
+    "nf": 20,
+    "redundancy": 38,
+    "n_sensors": 41
+  },
+  "faults": [
+    "IDV1",
+    "IDV2",
+    "IDV3",
+    "IDV4",
+    "IDV5",
+    "IDV6",
+    "IDV7",
+    "IDV8",
+    "IDV9",
+    "IDV10",
+    "IDV11",
+    "IDV12",
+    "IDV13",
+    "IDV14",
+    "IDV15",
+    "IDV16",
+    "IDV17",
+    "IDV18",
+    "IDV19",
+    "IDV20"
+  ],
+  "blocks": [
+    [
+      "IDV1"
+    ],
+    [
+      "IDV2"
+    ],
+    [
+      "IDV3",
+      "IDV9"
+    ],
+    [
+      "IDV4",
+      "IDV11",
+      "IDV14"
+    ],
+    [
+      "IDV5",
+      "IDV12",
+      "IDV15"
+    ],
+    [
+      "IDV6"
+    ],
+    [
+      "IDV7"
+    ],
+    [
+      "IDV8"
+    ],
+    [
+      "IDV10"
+    ],
+    [
+      "IDV13"
+    ],
+    [
+      "IDV16"
+    ],
+    [
+      "IDV17"
+    ],
+    [
+      "IDV18"
+    ],
+    [
+      "IDV19"
+    ],
+    [
+      "IDV20"
+    ]
+  ],
+  "n_classes": 15,
+  "max_class_size": 3,
+  "indiscernible_mass": 0.4,
+  "detectable": [
+    "IDV1",
+    "IDV2",
+    "IDV3",
+    "IDV4",
+    "IDV5",
+    "IDV6",
+    "IDV7",
+    "IDV8",
+    "IDV9",
+    "IDV10",
+    "IDV11",
+    "IDV12",
+    "IDV13",
+    "IDV14",
+    "IDV15",
+    "IDV16",
+    "IDV17",
+    "IDV18",
+    "IDV19",
+    "IDV20"
+  ],
+  "undetectable": [],
+  "tests": {
+    "B1": true,
+    "B2": true,
+    "B3": true,
+    "verdict": true
+  },
+  "hard_set": [
+    "IDV3",
+    "IDV9",
+    "IDV15"
+  ],
+  "easy_set": [
+    "IDV1",
+    "IDV2",
+    "IDV4",
+    "IDV6",
+    "IDV7",
+    "IDV14"
+  ]
+}

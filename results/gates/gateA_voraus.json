@@ -1,0 +1,229 @@
+{
+  "mapping": {
+    "AXIS_FRICTION": {
+      "modes": [
+        "friction1",
+        "friction2",
+        "friction3",
+        "friction4",
+        "friction5",
+        "friction6"
+      ],
+      "rationale": "Variants are axis-resolved (A1_A .. A6_B); the anomaly is a deviation of the friction parameters in the axis friction law.",
+      "included": true
+    },
+    "AXIS_WEIGHT": {
+      "modes": [
+        "addedmass1",
+        "addedmass2",
+        "addedmass3",
+        "addedmass4",
+        "addedmass5",
+        "addedmass6"
+      ],
+      "rationale": "Variants are axis-resolved with three magnitudes (A1_115G .. A6_500G); the anomaly is an inertial-parameter deviation of the corresponding link.",
+      "included": true
+    },
+    "MOTOR_COMMUTATION": {
+      "modes": [
+        "commutation1",
+        "commutation2",
+        "commutation3",
+        "commutation4",
+        "commutation5",
+        "commutation6"
+      ],
+      "rationale": "Variants are axis-resolved (A1_HIGH .. A6_MEDIUM); a commutation offset scales the electromagnetic torque relation tau_m = Kt*iq.",
+      "included": true
+    },
+    "COLLISION_FOAM": {
+      "modes": [
+        "extforce1",
+        "extforce2",
+        "extforce3",
+        "extforce4",
+        "extforce5",
+        "extforce6"
+      ],
+      "rationale": "Contact with a foam obstacle injects an external torque into the rigid-body row of whichever axes carry the contact wrench.",
+      "included": true
+    },
+    "COLLISION_CABLE": {
+      "modes": [
+        "extforce1",
+        "extforce2",
+        "extforce3",
+        "extforce4",
+        "extforce5",
+        "extforce6"
+      ],
+      "rationale": "As COLLISION_FOAM; the obstacle differs, the structural location does not.",
+      "included": true
+    },
+    "COLLISION_CARTON": {
+      "modes": [
+        "extforce1",
+        "extforce2",
+        "extforce3",
+        "extforce4",
+        "extforce5",
+        "extforce6"
+      ],
+      "rationale": "As COLLISION_FOAM.",
+      "included": true
+    },
+    "ENTANGLED": {
+      "modes": [
+        "extforce1",
+        "extforce2",
+        "extforce3",
+        "extforce4",
+        "extforce5",
+        "extforce6"
+      ],
+      "rationale": "A snagged cable applies a sustained external wrench; same structural location as a collision.",
+      "included": true
+    },
+    "MISS_CAN": {
+      "modes": [
+        "payload"
+      ],
+      "rationale": "The gripper carries no workpiece, so the payload mass parameter deviates from nominal by the full can mass.",
+      "included": true
+    },
+    "LOSE_CAN": {
+      "modes": [
+        "payload"
+      ],
+      "rationale": "The workpiece is released mid-trajectory: the same payload parameter, with a step in time rather than at t=0.",
+      "included": true
+    },
+    "CAN_WEIGHT": {
+      "modes": [
+        "payload"
+      ],
+      "rationale": "The can is heavier or lighter than nominal: payload parameter deviation.",
+      "included": true
+    },
+    "INVALID_POSITION": {
+      "modes": [],
+      "rationale": "EXCLUDED. The plant is healthy; the reference trajectory is wrong. This is a deviation of a known input, not of a model equation or parameter, so it has no structural fault location.",
+      "included": false
+    },
+    "WOBBLING_STATION": {
+      "modes": [],
+      "rationale": "EXCLUDED. A compliant/moving base adds degrees of freedom that the fixed-base model does not contain. It is unmodelled dynamics, not a parameter deviation, and belongs to the model-mismatch experiment instead.",
+      "included": false
+    }
+  },
+  "excluded_categories": [
+    "INVALID_POSITION",
+    "WOBBLING_STATION"
+  ],
+  "excluded_channels": {
+    "motor_torque_i": "firmware estimate Kt*iq, not an independent sensor",
+    "power_motor_el_i": "product of motor_voltage and motor_iq",
+    "power_motor_mech_i": "product of motor_torque and motor_velocity",
+    "power_load_mech_i": "product of joint torque and joint_velocity",
+    "computed_torque_i": "controller inverse-dynamics output",
+    "computed_inertia_i": "controller inertia model output",
+    "motor_id_i": "d-axis current, regulated to zero, no structural role",
+    "supply_voltage_i / brake_voltage_i": "DC-link and brake rails, not in the drivetrain equations",
+    "io_current / system_current": "auxiliary supplies outside the drivetrain",
+    "target_*": "reference trajectory, entered as a known input instead"
+  },
+  "n_modes_covered": 25,
+  "n_modes_total": 25,
+  "model": {
+    "ne": 147,
+    "nx": 98,
+    "nz": 49,
+    "nf": 25,
+    "redundancy": 49,
+    "n_sensors": 49
+  },
+  "blocks": [
+    [
+      "friction1"
+    ],
+    [
+      "friction2"
+    ],
+    [
+      "friction3"
+    ],
+    [
+      "friction4"
+    ],
+    [
+      "friction5"
+    ],
+    [
+      "friction6"
+    ],
+    [
+      "addedmass1",
+      "extforce1"
+    ],
+    [
+      "addedmass2"
+    ],
+    [
+      "addedmass3"
+    ],
+    [
+      "addedmass4"
+    ],
+    [
+      "addedmass5"
+    ],
+    [
+      "addedmass6"
+    ],
+    [
+      "commutation1"
+    ],
+    [
+      "commutation2"
+    ],
+    [
+      "commutation3"
+    ],
+    [
+      "commutation4"
+    ],
+    [
+      "commutation5"
+    ],
+    [
+      "commutation6"
+    ],
+    [
+      "extforce2"
+    ],
+    [
+      "extforce3"
+    ],
+    [
+      "extforce4"
+    ],
+    [
+      "extforce5"
+    ],
+    [
+      "extforce6"
+    ],
+    [
+      "payload"
+    ]
+  ],
+  "n_classes": 24,
+  "max_class_size": 2,
+  "indiscernible_mass": 0.08,
+  "undetectable": [],
+  "tests": {
+    "A1": true,
+    "A2": true,
+    "verdict": true
+  }
+}

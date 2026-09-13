@@ -1,0 +1,194 @@
+{
+  "added_relations": [
+    "r_dec2",
+    "r_sep_En"
+  ],
+  "bound_blocks": [
+    [
+      "L_feed4_AC"
+    ],
+    [
+      "L_feed4_B"
+    ],
+    [
+      "L_Dfeed_temp"
+    ],
+    [
+      "L_reac_cw_temp",
+      "L_reac_cw_valve"
+    ],
+    [
+      "L_cond_cw_temp",
+      "L_cond_cw_valve"
+    ],
+    [
+      "L_Afeed_loss"
+    ],
+    [
+      "L_Cheader"
+    ],
+    [
+      "L_feed4_multi"
+    ],
+    [
+      "L_Cfeed_temp"
+    ],
+    [
+      "L_kinetics"
+    ],
+    [
+      "L_steam_valve"
+    ],
+    [
+      "L_reac_UA"
+    ],
+    [
+      "L_cond_UA"
+    ],
+    [
+      "L_other_valves"
+    ],
+    [
+      "L_reac_out_flow"
+    ]
+  ],
+  "bound_mass": 0.23529411764705882,
+  "base_bank_blocks": [
+    [
+      "L_Afeed_loss"
+    ],
+    [
+      "L_Cfeed_temp"
+    ],
+    [
+      "L_Cheader"
+    ],
+    [
+      "L_Dfeed_temp"
+    ],
+    [
+      "L_cond_cw_temp",
+      "L_cond_cw_valve",
+      "L_cond_UA"
+    ],
+    [
+      "L_feed4_AC"
+    ],
+    [
+      "L_feed4_B",
+      "L_feed4_multi"
+    ],
+    [
+      "L_kinetics"
+    ],
+    [
+      "L_other_valves"
+    ],
+    [
+      "L_reac_UA"
+    ],
+    [
+      "L_reac_cw_temp",
+      "L_reac_cw_valve"
+    ],
+    [
+      "L_reac_out_flow"
+    ],
+    [
+      "L_steam_valve"
+    ]
+  ],
+  "base_bank_mass": 0.4117647058823529,
+  "mass_by_bank": {
+    "24 base relations": 0.4117647058823529,
+    "+ r_sep_En": 0.35294117647058826,
+    "+ r_dec2": 0.29411764705882354,
+    "all 26": 0.23529411764705882
+  },
+  "attempts": [
+    {
+      "class": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve",
+        "L_cond_UA"
+      ],
+      "bound_says": "reducible",
+      "bound_blocks_within_class": [
+        [
+          "L_cond_cw_temp",
+          "L_cond_cw_valve"
+        ],
+        [
+          "L_cond_UA"
+        ]
+      ],
+      "action": "step 2a: write the separating balance",
+      "relation_written": "r_sep_En",
+      "separates": "L_cond_UA",
+      "why": "the separator energy balance carries the condenser duty through the process side, which is instrumented, and reads neither the coolant flow nor the coolant inlet temperature"
+    },
+    {
+      "class": [
+        "L_cond_cw_temp",
+        "L_cond_cw_valve"
+      ],
+      "bound_says": "irreducible",
+      "bound_blocks_within_class": [
+        [
+          "L_cond_cw_temp",
+          "L_cond_cw_valve"
+        ]
+      ],
+      "action": "stop: reported as an ambiguity",
+      "relation_written": null,
+      "note": "what the class leaves behind, re-tested"
+    },
+    {
+      "class": [
+        "L_feed4_B",
+        "L_feed4_multi"
+      ],
+      "bound_says": "reducible",
+      "bound_blocks_within_class": [
+        [
+          "L_feed4_B"
+        ],
+        [
+          "L_feed4_multi"
+        ]
+      ],
+      "action": "step 2b: annihilating combination",
+      "annihilator": {
+        "ok": true,
+        "notes": {
+          "L_feed4_B": "fixed direction, known from the benchmark constants",
+          "L_feed4_multi": "a random walk on several components, no fixed direction"
+        },
+        "annihilates": "L_feed4_B",
+        "coefficients": {
+          "r_balA": 0.005,
+          "r_balB": 0.00243719
+        },
+        "response_of_others": {
+          "L_feed4_multi": "non-zero (random direction, not annihilated)"
+        }
+      },
+      "relation_written": "r_dec2"
+    },
+    {
+      "class": [
+        "L_reac_cw_temp",
+        "L_reac_cw_valve"
+      ],
+      "bound_says": "irreducible",
+      "bound_blocks_within_class": [
+        [
+          "L_reac_cw_temp",
+          "L_reac_cw_valve"
+        ]
+      ],
+      "action": "stop: reported as an ambiguity",
+      "relation_written": null
+    }
+  ]
+}
